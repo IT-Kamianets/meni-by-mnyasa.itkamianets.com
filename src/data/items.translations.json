@@ -1,234 +1,1564 @@
 [
 	{
-		"slug": "homemade-syrnyky-with-sour-cream",
+	"slug": "cappuccino",
+	"document": "item",
+	"data": {
+		"title": {
+			"ua": "Капучино",
+			"en": "Cappuccino",
+			"pl": "Cappuccino",
+			"de": "Cappuccino",
+			"fr": "Cappuccino"
+		},
+		"description": {
+			"ua": "Еспресо зі спіненим молоком і молочною піною.",
+			"en": "Espresso with steamed milk and foam.",
+			"pl": "Espresso ze spienionym mlekiem i mleczną pianką.",
+			"de": "Espresso mit aufgeschäumter Milch und Milchschaum.",
+			"fr": "Espresso avec lait chaud moussé et mousse de lait."
+		},
+		"labels": [
+			{
+				"ua": "350 мл",
+				"en": "350 ml",
+				"pl": "350 ml",
+				"de": "350 ml",
+				"fr": "350 ml"
+			}
+		],
+		"fullDescription": {
+			"ua": "Еспресо зі спіненим молоком і молочною піною.",
+			"en": "Espresso with steamed milk and foam.",
+			"pl": "Espresso ze spienionym mlekiem i mleczną pianką.",
+			"de": "Espresso mit aufgeschäumter Milch und Milchschaum.",
+			"fr": "Espresso avec lait chaud moussé et mousse de lait."
+		}
+	}
+},
+	{
+		"slug": "caesar-salad",
 		"document": "item",
 		"data": {
 			"title": {
-				"ua": "Домашні сирники зі сметаною",
-				"bg": "Домашни сирники със сметана",
-				"hr": "Domaći syrnyky sa kiselim vrhnjem",
-				"cs": "Domácí syrniky se zakysanou smetanou",
-				"da": "Hjemmelavede syrnyky med cremefraiche",
-				"nl": "Huisgemaakte syrnyky met zure room",
-				"en": "Homemade syrnyky with sour cream",
-				"et": "Kodused syrnykyd hapukoorega",
-				"fi": "Kotitekoiset syrnykyt smetanalla",
-				"fr": "Syrnyky maison à la crème aigre",
-				"de": "Hausgemachte Syrnyky mit Sauerrahm",
-				"el": "Σπιτικά syrnyky με ξινή κρέμα",
-				"hu": "Házi syrnyky tejföllel",
-				"ga": "Syrnyky baile le huachtar géar",
-				"it": "Syrnyky fatti in casa con panna acida",
-				"lv": "Mājās gatavoti syrnyki ar skābo krējumu",
-				"lt": "Naminiai syrnykai su grietine",
-				"mt": "Syrnyky magħmula d-dar bil-krema qarsa",
-				"pl": "Domowe syrniki ze śmietaną",
-				"pt": "Syrnyky caseiros com nata azeda",
-				"ro": "Syrnyky de casă cu smântână",
-				"sk": "Domáce syrniky s kyslou smotanou",
-				"sl": "Domači syrnyki s kislo smetano",
-				"es": "Syrnyky caseros con crema agria",
-				"sv": "Hemlagade syrnyky med gräddfil"
+				"ua": "Цезар",
+				"en": "Caesar salad",
+				"pl": "Cezar",
+				"de": "Caesar-Salat",
+				"fr": "Salade César"
 			},
 			"description": {
-				"ua": "Рум’яні сирники, подані зі сметаною.",
-				"bg": "Златисти сирники, поднесени със сметана.",
-				"hr": "Zlatni syrnyky posluženi s kiselim vrhnjem.",
-				"cs": "Zlatavé syrniky podávané se zakysanou smetanou.",
-				"da": "Gyldne syrnyky serveret med cremefraiche.",
-				"nl": "Goudbruine syrnyky geserveerd met zure room.",
-				"en": "Golden cottage cheese pancakes served with sour cream.",
-				"et": "Kuldsed kohupiimapannkoogid hapukoorega.",
-				"fi": "Kultaiset rahkaletut tarjoiltuna smetanan kanssa.",
-				"fr": "Galettes dorées au fromage frais servies avec de la crème aigre.",
-				"de": "Goldene Quarkküchlein mit Sauerrahm serviert.",
-				"el": "Χρυσαφένια τηγανίτες τυριού cottage με ξινή κρέμα.",
-				"hu": "Aranyszínű túrós lepénykék tejföllel tálalva.",
-				"ga": "Syrnyky órga déanta le cáis teachín, le huachtar géar.",
-				"it": "Dorati pancake di ricotta serviti con panna acida.",
-				"lv": "Zeltaini biezpiena plācenīši, pasniegti ar skābo krējumu.",
-				"lt": "Auksiniai varškėčiai, patiekiami su grietine.",
-				"mt": "Syrnyky dehbin servuti bil-krema qarsa.",
-				"pl": "Złociste placuszki twarogowe podawane ze śmietaną.",
-				"pt": "Panquecas douradas de queijo fresco servidas com nata azeda.",
-				"ro": "Papanași de brânză dulce rumeniți, serviți cu smântână.",
-				"sk": "Zlatisté syrniky podávané s kyslou smotanou.",
-				"sl": "Zlatorumeni syrnyki, postreženi s kislo smetano.",
-				"es": "Tortitas doradas de requesón servidas con crema agria.",
-				"sv": "Gyllene ostplättar serverade med gräddfil."
+				"ua": "Мікс салату, свіжий огірок, солодкий перець, помідор, сир пармезан, соус.",
+				"en": "Mix salad, fresh cucumber, sweet pepper, tomato, parmesan cheese, sauce.",
+				"pl": "Miks sałat, świeży ogórek, słodka papryka, pomidor, parmezan, sos.",
+				"de": "Salatmischung, frische Gurke, süße Paprika, Tomate, Parmesan, Sauce.",
+				"fr": "Mélange de salade, concombre frais, poivron doux, tomate, parmesan, sauce."
 			},
 			"labels": [
 				{
-					"ua": "200 г",
-					"bg": "200 g",
-					"hr": "200 g",
-					"cs": "200 g",
-					"da": "200 g",
-					"nl": "200 g",
-					"en": "200 g",
-					"et": "200 g",
-					"fi": "200 g",
-					"fr": "200 g",
-					"de": "200 g",
-					"el": "200 g",
-					"hu": "200 g",
-					"ga": "200 g",
-					"it": "200 g",
-					"lv": "200 g",
-					"lt": "200 g",
-					"mt": "200 g",
-					"pl": "200 g",
-					"pt": "200 g",
-					"ro": "200 g",
-					"sk": "200 g",
-					"sl": "200 g",
-					"es": "200 g",
-					"sv": "200 g"
+					"ua": "240 г",
+					"en": "240 g",
+					"pl": "240 g",
+					"de": "240 g",
+					"fr": "240 g"
 				}
 			],
 			"fullDescription": {
-				"ua": "Ніжні домашні сирники з приємною сирною текстурою, обсмажені до золотистої скоринки та подані зі сметаною. Традиційний солодкий сніданок, який смакує по-домашньому.",
-				"bg": "Нежни домашни сирники с приятна сирена текстура, запечени до златиста коричка и поднесени със сметана. Традиционна сладка закуска с домашен вкус.",
-				"hr": "Nježni domaći syrnyky ugodne siraste teksture, pečeni do zlatne korice i posluženi s kiselim vrhnjem. Tradicionalan slatki doručak domaćeg okusa.",
-				"cs": "Jemné domácí syrniky s příjemnou sýrovou strukturou, opečené dozlatova a podávané se zakysanou smetanou. Tradiční sladká snídaně s domácí chutí.",
-				"da": "Bløde hjemmelavede syrnyky med en lækker osteagtig konsistens, stegt gyldne og serveret med cremefraiche. En traditionel sød morgenmad med hjemlig smag.",
-				"nl": "Zachte huisgemaakte syrnyky met een fijne kaasttextuur, goudbruin gebakken en geserveerd met zure room. Een traditioneel zoet ontbijt met huiselijke smaak.",
-				"en": "Tender homemade syrnyky with a delicate cheese texture, pan-fried until golden and served with sour cream. A traditional sweet breakfast with a comforting homemade feel.",
-				"et": "Õrnad kodused syrnykyd meeldiva kohupiimatekstuuriga, kuldseks praetud ja hapukoorega serveeritud. Traditsiooniline magus hommikusöök koduse maitsega.",
-				"fi": "Pehmeät kotitekoiset syrnykyt miellyttävällä rahkaisella rakenteella, kullanruskeiksi paistettuina ja smetanan kanssa tarjoiltuina. Perinteinen makea aamiainen kotisella maulla.",
-				"fr": "De tendres syrnyky maison à la texture délicate de fromage frais, dorés à la poêle et servis avec de la crème aigre. Un petit-déjeuner sucré traditionnel au goût de maison.",
-				"de": "Zarte hausgemachte Syrnyky mit feiner Quarktextur, goldbraun gebraten und mit Sauerrahm serviert. Ein traditionelles süßes Frühstück mit hausgemachtem Charakter.",
-				"el": "Τρυφερά σπιτικά syrnyky με ευχάριστη υφή τυριού, ψημένα μέχρι να ροδίσουν και σερβιρισμένα με ξινή κρέμα. Ένα παραδοσιακό γλυκό πρωινό με σπιτική αίσθηση.",
-				"hu": "Lágy házi syrnyky kellemes túrós állaggal, aranybarnára sütve és tejföllel tálalva. Hagyományos édes reggeli otthonos ízzel.",
-				"ga": "Syrnyky boga baile le huigeacht bhog cháis, friochta go hórga agus seirbheáilte le huachtar géar. Bricfeasta milis traidisiúnta le blas baile.",
-				"it": "Syrnyky fatti in casa, morbidi e dalla delicata consistenza di formaggio, dorati in padella e serviti con panna acida. Una colazione dolce tradizionale dal gusto casalingo.",
-				"lv": "Maigi mājās gatavoti syrnyki ar patīkamu biezpiena tekstūru, apcepti līdz zeltainai garoziņai un pasniegti ar skābo krējumu. Tradicionālas saldas brokastis ar mājīgu garšu.",
-				"lt": "Švelnūs naminiai syrnykai su malonia varškės tekstūra, apskrudinti iki auksinės plutelės ir patiekiami su grietine. Tradiciniai saldūs pusryčiai su naminiu skoniu.",
-				"mt": "Syrnyky rotob magħmula d-dar b’tessut delikat tal-ġobon, moqlija sa ma jsirux dehbin u servuti bil-krema qarsa. Kolazzjon tradizzjonali ħelu b’togħma ta’ dar.",
-				"pl": "Delikatne domowe syrniki o przyjemnej twarogowej strukturze, smażone na złoto i podawane ze śmietaną. Tradycyjne słodkie śniadanie o domowym charakterze.",
-				"pt": "Syrnyky caseiros macios, com delicada textura de queijo, dourados na frigideira e servidos com nata azeda. Um pequeno-almoço doce e tradicional com sabor caseiro.",
-				"ro": "Syrnyky fragede de casă, cu textură fină de brânză, rumenite frumos și servite cu smântână. Un mic dejun dulce tradițional, cu gust de casă.",
-				"sk": "Jemné domáce syrniky s príjemnou tvarohovou textúrou, opečené dozlatista a podávané s kyslou smotanou. Tradičné sladké raňajky s domácou chuťou.",
-				"sl": "Nežni domači syrnyki s prijetno sirasto teksturo, zapečeni do zlatorjave skorjice in postreženi s kislo smetano. Tradicionalen sladek zajtrk z domačim pridihom.",
-				"es": "Syrnyky caseros y tiernos, con delicada textura de queso, dorados en la sartén y servidos con crema agria. Un desayuno dulce tradicional con sabor a hogar.",
-				"sv": "Mjuka hemlagade syrnyky med fin ostig konsistens, stekta gyllene och serverade med gräddfil. En traditionell söt frukost med hemtrevlig känsla."
+				"ua": "Мікс салату, свіжий огірок, солодкий перець, помідор, сир пармезан, соус.",
+				"en": "Mix salad, fresh cucumber, sweet pepper, tomato, parmesan cheese, sauce.",
+				"pl": "Miks sałat, świeży ogórek, słodka papryka, pomidor, parmezan, sos.",
+				"de": "Salatmischung, frische Gurke, süße Paprika, Tomate, Parmesan, Sauce.",
+				"fr": "Mélange de salade, concombre frais, poivron doux, tomate, parmesan, sauce."
 			}
 		}
 	},
 	{
-		"slug": "cappuccino",
+		"slug": "beef-grill-salad",
 		"document": "item",
 		"data": {
 			"title": {
-				"ua": "Капучино",
-				"bg": "Капучино",
-				"hr": "Cappuccino",
-				"cs": "Cappuccino",
-				"da": "Cappuccino",
-				"nl": "Cappuccino",
-				"en": "Cappuccino",
-				"et": "Cappuccino",
-				"fi": "Cappuccino",
-				"fr": "Cappuccino",
-				"de": "Cappuccino",
-				"el": "Καπουτσίνο",
-				"hu": "Cappuccino",
-				"ga": "Cappuccino",
-				"it": "Cappuccino",
-				"lv": "Kapučīno",
-				"lt": "Kapučinas",
-				"mt": "Cappuccino",
-				"pl": "Cappuccino",
-				"pt": "Cappuccino",
-				"ro": "Cappuccino",
-				"sk": "Cappuccino",
-				"sl": "Kapučino",
-				"es": "Capuchino",
-				"sv": "Cappuccino"
+				"ua": "З яловичиною гриль",
+				"en": "Beef grill salad",
+				"pl": "Sałatka z grillowaną wołowiną",
+				"de": "Salat mit gegrilltem Rindfleisch",
+				"fr": "Salade au bœuf grillé"
 			},
 			"description": {
-				"ua": "Еспресо зі спіненим молоком і молочною піною.",
-				"bg": "Еспресо със затоплено мляко и млечна пяна.",
-				"hr": "Espresso s ugrijanim mlijekom i mliječnom pjenom.",
-				"cs": "Espresso s napařeným mlékem a mléčnou pěnou.",
-				"da": "Espresso med dampet mælk og mælkeskum.",
-				"nl": "Espresso met gestoomde melk en melkschuim.",
-				"en": "Espresso with steamed milk and foam.",
-				"et": "Espresso aurutatud piima ja piimavahuga.",
-				"fi": "Espresso höyrytetyllä maidolla ja maitovaahdolla.",
-				"fr": "Espresso avec lait chaud moussé et mousse de lait.",
-				"de": "Espresso mit aufgeschäumter Milch und Milchschaum.",
-				"el": "Εσπρέσο με ζεστό αφρόγαλα και αφρό γάλακτος.",
-				"hu": "Eszpresszó gőzölt tejjel és tejhabbal.",
-				"ga": "Espresso le bainne galaithe agus cúr bainne.",
-				"it": "Espresso con latte vaporizzato e schiuma di latte.",
-				"lv": "Espresso ar tvaicētu pienu un piena putām.",
-				"lt": "Espresas su garintu pienu ir pieno puta.",
-				"mt": "Espresso b'ħalib imsaħħan bil-fwar u ragħwa tal-ħalib.",
-				"pl": "Espresso ze spienionym mlekiem i mleczną pianką.",
-				"pt": "Espresso com leite vaporizado e espuma de leite.",
-				"ro": "Espresso cu lapte încălzit la abur și spumă de lapte.",
-				"sk": "Espresso s napeneným mliekom a mliečnou penou.",
-				"sl": "Espresso s parjenim mlekom in mlečno peno.",
-				"es": "Espresso con leche vaporizada y espuma de leche.",
-				"sv": "Espresso med ångad mjölk och mjölkskum."
+				"ua": "Мікс салату, огірок, солодкий перець, чері, філе яловичини, пармезан, заправка.",
+				"en": "Mix salad, cucumber, sweet pepper, cherry tomatoes, beef fillet, parmesan, dressing.",
+				"pl": "Miks sałat, ogórek, słodka papryка, pomidorki cherry, filet wołowy, parmezan, dressing.",
+				"de": "Salatmischung, Gurke, süße Paprika, Cherrytomaten, Rinderfilet, Parmesan, Dressing.",
+				"fr": "Mélange de salade, concombre, poivron doux, tomates cerises, filet de bœuf, parmesan, vinaigrette."
 			},
 			"labels": [
 				{
-					"ua": "350мл",
-					"bg": "350 мл",
-					"hr": "350 ml",
-					"cs": "350 ml",
-					"da": "350 ml",
-					"nl": "350 ml",
-					"en": "350ml",
-					"et": "350 ml",
-					"fi": "350 ml",
-					"fr": "350 ml",
-					"de": "350 ml",
-					"el": "350 ml",
-					"hu": "350 ml",
-					"ga": "350 ml",
-					"it": "350 ml",
-					"lv": "350 ml",
-					"lt": "350 ml",
-					"mt": "350 ml",
-					"pl": "350 ml",
-					"pt": "350 ml",
-					"ro": "350 ml",
-					"sk": "350 ml",
-					"sl": "350 ml",
-					"es": "350 ml",
-					"sv": "350 ml"
+					"ua": "240 г",
+					"en": "240 g",
+					"pl": "240 g",
+					"de": "240 g",
+					"fr": "240 g"
 				}
 			],
 			"fullDescription": {
-				"ua": "Еспресо зі спіненим молоком і молочною піною. Інгредієнти: еспресо, спінене молоко та молочна піна.",
-				"bg": "Еспресо със затоплено мляко и млечна пяна. Съставки: еспресо, затоплено мляко и млечна пяна.",
-				"hr": "Espresso s ugrijanim mlijekom i mliječnom pjenom. Sastojci: espresso, ugrijano mlijeko i mliječna pjena.",
-				"cs": "Espresso s napařeným mlékem a mléčnou pěnou. Složení: espresso, napařené mléko a mléčná pěna.",
-				"da": "Espresso med dampet mælk og mælkeskum. Ingredienser: espresso, dampet mælk og mælkeskum.",
-				"nl": "Espresso met gestoomde melk en melkschuim. Ingrediënten: espresso, gestoomde melk en melkschuim.",
-				"en": "Espresso with steamed milk and foam. Ingredients: Espresso with steamed milk and foam..",
-				"et": "Espresso aurutatud piima ja piimavahuga. Koostisosad: espresso, aurutatud piim ja piimavaht.",
-				"fi": "Espresso höyrytetyllä maidolla ja maitovaahdolla. Ainesosat: espresso, höyrytetty maito ja maitovaahto.",
-				"fr": "Espresso avec lait chaud moussé et mousse de lait. Ingrédients : espresso, lait chaud moussé et mousse de lait.",
-				"de": "Espresso mit aufgeschäumter Milch und Milchschaum. Zutaten: Espresso, aufgeschäumte Milch und Milchschaum.",
-				"el": "Εσπρέσο με ζεστό αφρόγαλα και αφρό γάλακτος. Υλικά: εσπρέσο, ζεστό αφρόγαλα και αφρός γάλακτος.",
-				"hu": "Eszpresszó gőzölt tejjel és tejhabbal. Összetevők: eszpresszó, gőzölt tej és tejhab.",
-				"ga": "Espresso le bainne galaithe agus cúr bainne. Comhábhair: espresso, bainne galaithe agus cúr bainne.",
-				"it": "Espresso con latte vaporizzato e schiuma di latte. Ingredienti: espresso, latte vaporizzato e schiuma di latte.",
-				"lv": "Espresso ar tvaicētu pienu un piena putām. Sastāvdaļas: espresso, tvaicēts piens un piena putas.",
-				"lt": "Espresas su garintu pienu ir pieno puta. Sudėtis: espresas, garintas pienas ir pieno puta.",
-				"mt": "Espresso b'ħalib imsaħħan bil-fwar u ragħwa tal-ħalib. Ingredjenti: espresso, ħalib imsaħħan bil-fwar u ragħwa tal-ħalib.",
-				"pl": "Espresso ze spienionym mlekiem i mleczną pianką. Składniki: espresso, spienione mleko i mleczna pianka.",
-				"pt": "Espresso com leite vaporizado e espuma de leite. Ingredientes: espresso, leite vaporizado e espuma de leite.",
-				"ro": "Espresso cu lapte încălzit la abur și spumă de lapte. Ingrediente: espresso, lapte încălzit la abur și spumă de lapte.",
-				"sk": "Espresso s napeneným mliekom a mliečnou penou. Zloženie: espresso, napenené mlieko a mliečna pena.",
-				"sl": "Espresso s parjenim mlekom in mlečno peno. Sestavine: espresso, parjeno mleko in mlečna pena.",
-				"es": "Espresso con leche vaporizada y espuma de leche. Ingredientes: espresso, leche vaporizada y espuma de leche.",
-				"sv": "Espresso med ångad mjölk och mjölkskum. Ingredienser: espresso, ångad mjölk och mjölkskum."
+				"ua": "Мікс салату, огірок, солодкий перець, чері, філе яловичини, пармезан, заправка.",
+				"en": "Mix salad, cucumber, sweet pepper, cherry tomatoes, beef fillet, parmesan, dressing.",
+				"pl": "Miks sałat, ogórek, słodka papryка, pomidorki cherry, filet wołowy, parmezan, dressing.",
+				"de": "Salatmischung, Gurke, süße Paprika, Cherrytomaten, Rinderfilet, Parmesan, Dressing.",
+				"fr": "Mélange de salade, concombre, poivron doux, tomates cerises, filet de bœuf, parmesan, vinaigrette."
 			}
 		}
-	}
+	},
+	{
+		"slug": "pork-salad",
+		"document": "item",
+		"data": {
+			"title": {
+				"ua": "Зі свининою",
+				"en": "Pork salad",
+				"pl": "Sałatka z wieprzowiną",
+				"de": "Salat mit Schweinefleisch",
+				"fr": "Salade au porc"
+			},
+			"description": {
+				"ua": "Мікс салату, огірок, болгарський перець, помідор, свинина в клярі, моцарела, заправка.",
+				"en": "Mix salad, cucumber, bell pepper, tomato, pork in batter, mozzarella, dressing.",
+				"pl": "Miks sałat, ogórek, papryka, pomidor, wieprzowina w cieście, mozzarella, dressing.",
+				"de": "Salatmischung, Gurke, Paprika, Tomate, Schweinefleisch im Teig, Mozzarella, Dressing.",
+				"fr": "Mélange de salade, concombre, poivron, tomate, porc en pâte, mozzarella, vinaigrette."
+			},
+			"labels": [
+				{
+					"ua": "240 г",
+					"en": "240 g",
+					"pl": "240 g",
+					"de": "240 g",
+					"fr": "240 g"
+				}
+			],
+			"fullDescription": {
+				"ua": "Мікс салату, огірок, болгарський перець, помідор, свинина в клярі, моцарела, заправка.",
+				"en": "Mix salad, cucumber, bell pepper, tomato, pork in batter, mozzarella, dressing.",
+				"pl": "Miks sałat, ogórek, papryka, pomidor, wieprzowina w cieście, mozzarella, dressing.",
+				"de": "Salatmischung, Gurke, Paprika, Tomate, Schweinefleisch im Teig, Mozzarella, Dressing.",
+				"fr": "Mélange de salade, concombre, poivron, tomate, porc en pâte, mozzarella, vinaigrette."
+			}
+		}
+	},
+	{
+		"slug": "classic-salad",
+		"document": "item",
+		"data": {
+			"title": {
+				"ua": "Класичний",
+				"en": "Classic salad",
+				"pl": "Sałatka klasyczna",
+				"de": "Klassischer Salat",
+				"fr": "Salade classique"
+			},
+			"description": {
+				"ua": "Мікс салату, огірок, болгарський перець, помідор, моцарела, фірмова заправка.",
+				"en": "Mix salad, cucumber, bell pepper, tomato, mozzarella, signature dressing.",
+				"pl": "Miks sałat, ogórek, papryka, pomidor, mozzarella, firmowy dressing.",
+				"de": "Salatmischung, Gurke, Paprika, Tomate, Mozzarella, hausgemachtes Dressing.",
+				"fr": "Mélange de salade, concombre, poivron, tomate, mozzarella, sauce maison."
+			},
+			"labels": [
+				{
+					"ua": "240 г",
+					"en": "240 g",
+					"pl": "240 g",
+					"de": "240 g",
+					"fr": "240 g"
+				}
+			],
+			"fullDescription": {
+				"ua": "Мікс салату, огірок, болгарський перець, помідор, моцарела, фірмова заправка.",
+				"en": "Mix salad, cucumber, bell pepper, tomato, mozzarella, signature dressing.",
+				"pl": "Miks sałat, ogórek, papryka, pomidor, mozzarella, firmowy dressing.",
+				"de": "Salatmischung, Gurke, Paprika, Tomate, Mozzarella, hausgemachtes Dressing.",
+				"fr": "Mélange de salade, concombre, poivron, tomate, mozzarella, sauce maison."
+			}
+		}
+	},
+	{
+		"slug": "chicken-salad",
+		"document": "item",
+		"data": {
+			"title": {
+				"ua": "З курячим філе",
+				"en": "Chicken salad",
+				"pl": "Sałatka z filetem z kurczaka",
+				"de": "Salat mit Hähnchenfilet",
+				"fr": "Salade au filet de poulet"
+			},
+			"description": {
+				"ua": "Мікс салату, огірок, болгарський перець, помідор, куряче філе, пармезан, майонез власного виробництва.",
+				"en": "Mix salad, cucumber, bell pepper, tomato, chicken fillet, parmesan, homemade mayonnaise.",
+				"pl": "Miks sałat, ogórek, papryka, pomidor, filet z kurczaka, parmezan, domowy majonez.",
+				"de": "Salatmischung, Gurke, Paprika, Tomate, Hähnchenfilet, Parmesan, hausgemachte Mayonnaise.",
+				"fr": "Mélange de salade, concombre, poivron, tomate, filet de poulet, parmesan, mayonnaise maison."
+			},
+			"labels": [
+				{
+					"ua": "250 г",
+					"en": "250 g",
+					"pl": "250 g",
+					"de": "250 g",
+					"fr": "250 g"
+				}
+			],
+			"fullDescription": {
+				"ua": "Мікс салату, огірок, болгарський перець, помідор, куряче філе, пармезан, майонез власного виробництва.",
+				"en": "Mix salad, cucumber, bell pepper, tomato, chicken fillet, parmesan, homemade mayonnaise.",
+				"pl": "Miks sałat, ogórek, papryka, pomidor, filet z kurczaka, parmezan, domowy majonez.",
+				"de": "Salatmischung, Gurke, Paprika, Tomate, Hähnchenfilet, Parmesan, hausgemachte Mayonnaise.",
+				"fr": "Mélange de salade, concombre, poivron, tomate, filet de poulet, parmesan, mayonnaise maison."
+			}
+		}
+	},
+	{
+		"slug": "salmon-spinach",
+		"document": "item",
+		"data": {
+			"title": {
+				"ua": "Лосось на шпинатній подушці",
+				"en": "Salmon on spinach pillow",
+				"pl": "Łosoś na szpinakowej poduszce",
+				"de": "Lachs auf Spinatbett",
+				"fr": "Saumon sur lit d'épinards"
+			},
+			"description": {
+				"ua": "Лосось на шпинатній подушці — це чудовий вибір для тих, хто цінує поєднання різноманітних текстур і смаків у стравах, а також прагне насолодитися найкращими смаковими відтінками риби та овочів.",
+				"en": "Salmon on spinach pillow is a great choice for those who appreciate a combination of textures and flavors of fish and vegetables.",
+				"pl": "Łosoś na szpinakowej poduszce to doskonały wybór dla miłośників połączenia smaków i tekstur.",
+				"de": "Lachs auf Spinatbett ist eine ausgezeichnete Wahl für Liebhaber von Geschmack und Texturen.",
+				"fr": "Le saumon sur lit d'épinards est un excellent choix pour les amateurs de saveurs."
+			},
+			"labels": [
+				{
+					"ua": "за 100 г сирої ваги",
+					"en": "per 100 g raw weight",
+					"pl": "za 100 g",
+					"de": "pro 100 g",
+					"fr": "pour 100 g"
+				}
+			],
+			"fullDescription": {
+				"ua": "Лосось на шпинатній подушці — це чудовий вибір для тих, хто цінує поєднання різноманітних текстур і смаків у стравах.",
+				"en": "Salmon on spinach pillow with vegetables.",
+				"pl": "Łosoś na szpinaku z warzywami.",
+				"de": "Lachs auf Spinat mit Gemüse.",
+				"fr": "Saumon sur épinards avec légumes."
+			}
+		}
+	},
+	{
+		"slug": "shrimp-beer-batter",
+		"document": "item",
+		"data": {
+			"title": {
+				"ua": "Тигрові креветки у пивному клярі з соусом з ікри мінтая",
+				"en": "Shrimp in beer batter with mint caviar sauce",
+				"pl": "Krewetki w cieście piwnym",
+				"de": "Garnelen im Bierteig",
+				"fr": "Crevettes en pâte à bière"
+			},
+			"description": {
+				"ua": "Ця страва — це справжній шедевр смаку і кулінарного мистецтва. Вона складається з великих та соковитих тигрових креветок, які занурюються в хрусткий пивний кляр.",
+				"en": "This dish is a true masterpiece of taste and culinary art with crispy shrimp.",
+				"pl": "To danie to prawdziwe arcydzieło smaku.",
+				"de": "Dieses Gericht ist ein echtes Meisterwerk.",
+				"fr": "Ce plat est un véritable chef-d'œuvre."
+			},
+			"labels": [
+				{
+					"ua": "280 г",
+					"en": "280 g",
+					"pl": "280 g",
+					"de": "280 g",
+					"fr": "280 g"
+				}
+			],
+			"fullDescription": {
+				"ua": "Тигрові креветки у пивному клярі з ніжним соусом з ікри мінтая.",
+				"en": "Shrimp in crispy beer batter with sauce.",
+				"pl": "Krewetki w chrupiącym cieście.",
+				"de": "Garnelen im knusprigen Bierteig.",
+				"fr": "Crevettes en pâte croustillante."
+			}
+		}
+	},
+	{
+  "slug": "ribeye-steak",
+  "document": "item",
+  "data": {
+    "title": {
+      "ua": "Стейк Рібай",
+      "en": "Ribeye steak",
+      "pl": "Stek Ribeye",
+      "de": "Ribeye-Steak",
+      "fr": "Steak Ribeye"
+    },
+    "description": {
+      "ua": "Відруб, із якого нарізається стейк, знаходиться на перетині 6 м'язів, котрі найменшим чином задіяні в пересуванні тварини. Все це має принципове значення для смакових якостей стейку: значна частина жирових прошарків тануть при приготуванні стейку, пом'якшуючи м'язові волокна, і м'ясо виходить надзвичайно соковитим, отримуючи неповторний витончений смак.",
+      "en": "The cut used for this steak comes from an area with minimal muscle movement, making the meat especially juicy and tender with a refined taste.",
+      "pl": "Stek z części o niewielkiej pracy mięśni, dzięki czemu mięso jest wyjątkowo soczyste i delikatne.",
+      "de": "Dieses Steak stammt aus einem wenig beanspruchten Teil des Tieres und ist dadurch besonders saftig und zart.",
+      "fr": "Ce steak provient d'une partie peu sollicitée de l'animal, ce qui le rend particulièrement juteux et tendre."
+    },
+    "labels": [
+      {
+        "ua": "за 100 г сирої ваги",
+        "en": "per 100 g raw weight",
+        "pl": "za 100 g surowej wagi",
+        "de": "pro 100 g Rohgewicht",
+        "fr": "pour 100 g de poids cru"
+      }
+    ],
+    "fullDescription": {
+      "ua": "Соковитий стейк Рібай з насиченим м’ясним смаком.",
+      "en": "Juicy ribeye steak with rich meat flavor.",
+      "pl": "Soczysty stek Ribeye o bogatym smaku mięsa.",
+      "de": "Saftiges Ribeye-Steak mit intensivem Fleischgeschmack.",
+      "fr": "Steak Ribeye juteux au goût intense de viande."
+    }
+  }
+},
+{
+  "slug": "beef-kebab",
+  "document": "item",
+  "data": {
+    "title": {
+      "ua": "Люля Кебаб із яловичини",
+      "en": "Beef kebab",
+      "pl": "Lula kebab z wołowiny",
+      "de": "Lula-Kebab aus Rindfleisch",
+      "fr": "Lula kebab au bœuf"
+    },
+    "description": {
+      "ua": "Люля-кебаб з яловичини — це відмінний варіант м'ясної страви для тих, хто не шанує шашлик або просто хоче урізноманітнити своє меню. Яловичий фарш, з'єднаний зі спеціями, перцем і сіллю, приготований на вугіллі, залишить у вас приголомшливий, незабутній смак.",
+      "en": "Beef lula kebab is a great grilled meat dish with spices and a rich unforgettable taste.",
+      "pl": "Lula kebab z wołowiny to świetne danie mięsne z przyprawami i niezapomnianym smakiem.",
+      "de": "Lula-Kebab aus Rindfleisch ist ein hervorragendes Fleischgericht mit Gewürzen und intensivem Geschmack.",
+      "fr": "Le lula kebab au bœuf est un excellent plat de viande aux épices et au goût inoubliable."
+    },
+    "labels": [
+      {
+        "ua": "300 г",
+        "en": "300 g",
+        "pl": "300 g",
+        "de": "300 g",
+        "fr": "300 g"
+      }
+    ],
+    "fullDescription": {
+      "ua": "Люля-кебаб із яловичини, приготований на вугіллі зі спеціями.",
+      "en": "Beef kebab grilled on charcoal with spices.",
+      "pl": "Kebab wołowy grillowany na węglu z przyprawami.",
+      "de": "Rinderkebab auf Kohle gegrillt mit Gewürzen.",
+      "fr": "Kebab de bœuf grillé au charbon avec des épices."
+    }
+  }
+},
+{
+  "slug": "filet-mignon-steak",
+  "document": "item",
+  "data": {
+    "title": {
+      "ua": "Стейк Філе міньон",
+      "en": "Filet mignon steak",
+      "pl": "Stek filet mignon",
+      "de": "Filet-Mignon-Steak",
+      "fr": "Steak filet mignon"
+    },
+    "description": {
+      "ua": "Філе Міньйон — надзвичайно ніжний і м’який стейк з молодої яловичини. Його отримують з тонкої частини поперечної вирізки, котра знаходиться всередині грудної клітки тварини біля хребта.",
+      "en": "Filet mignon is an especially tender steak from the delicate inner cut near the spine.",
+      "pl": "Filet mignon to wyjątkowo delikatny stek z cienkiej części polędwicy.",
+      "de": "Filet Mignon ist ein besonders zartes Steak aus dem inneren Filetstück nahe der Wirbelsäule.",
+      "fr": "Le filet mignon est un steak très tendre issu de la partie fine du filet."
+    },
+    "labels": [
+      {
+        "ua": "за 100 г сирої ваги",
+        "en": "per 100 g raw weight",
+        "pl": "za 100 g surowej wagi",
+        "de": "pro 100 g Rohgewicht",
+        "fr": "pour 100 g de poids cru"
+      }
+    ],
+    "fullDescription": {
+      "ua": "Ніжний стейк із молодої яловичини з делікатною текстурою.",
+      "en": "Tender steak from young beef with delicate texture.",
+      "pl": "Delikatny stek z młodej wołowiny o miękkiej strukturze.",
+      "de": "Zartes Steak aus jungem Rindfleisch mit feiner Textur.",
+      "fr": "Steak tendre de jeune bœuf à la texture délicate."
+    }
+  }
+},
+{
+  "slug": "veal-rack",
+  "document": "item",
+  "data": {
+    "title": {
+      "ua": "Каре теля",
+      "en": "Veal rack",
+      "pl": "Kare cielęce",
+      "de": "Kalbskarree",
+      "fr": "Carré de veau"
+    },
+    "description": {
+      "ua": "Каре теляти — надзвичайно ніжне й корисне м’ясо, яке знаходиться на ребрах молодої тварини. Цей м'ясний делікатес вирізають з частини грудної клітки, а довжина самих реберець становить від 8 до 10 см. Подається з печеною картоплею + соус.",
+      "en": "Veal rack is a tender meat delicacy from the ribs of a young animal, served with baked potatoes and sauce.",
+      "pl": "Kare cielęce to delikatny przysmak mięsny podawany z pieczonymi ziemniakami i sosem.",
+      "de": "Kalbskarree ist eine zarte Fleischspezialität, serviert mit Ofenkartoffeln und Sauce.",
+      "fr": "Le carré de veau est une viande tendre servie avec des pommes de terre au four et de la sauce."
+    },
+    "labels": [
+      {
+        "ua": "за 100 г сирої ваги",
+        "en": "per 100 g raw weight",
+        "pl": "za 100 g surowej wagi",
+        "de": "pro 100 g Rohgewicht",
+        "fr": "pour 100 g de poids cru"
+      }
+    ],
+    "fullDescription": {
+      "ua": "Ніжне каре теляти з печеною картоплею та соусом.",
+      "en": "Tender veal rack served with baked potatoes and sauce.",
+      "pl": "Delikatne kare cielęce z pieczonymi ziemniakami i sosem.",
+      "de": "Zartes Kalbskarree mit Ofenkartoffeln und Sauce.",
+      "fr": "Carré de veau tendre avec pommes de terre au four et sauce."
+    }
+  }
+},
+{
+  "slug": "pepper-steak",
+  "document": "item",
+  "data": {
+    "title": {
+      "ua": "Пепер стейк",
+      "en": "Pepper steak",
+      "pl": "Stek pieprzowy",
+      "de": "Pfeffersteak",
+      "fr": "Steak au poivre"
+    },
+    "description": {
+      "ua": "Стейк з перцем — це французька страва, яка складається зі стейка, традиційно філе міньйон, покритого крупно подрібненим перцем. Горошини перцю утворюють скоринку на стейку під час приготування та створюють гострий контраст до яловичини.",
+      "en": "Pepper steak is a French-style steak coated with coarse pepper, creating a spicy contrast to the beef.",
+      "pl": "Stek pieprzowy to francuskie danie ze steka pokrytego grubo mielonym pieprzem.",
+      "de": "Pfeffersteak ist ein französisches Steakgericht mit grob gemahlenem Pfeffer.",
+      "fr": "Le steak au poivre est un plat français recouvert de poivre concassé."
+    },
+    "labels": [
+      {
+        "ua": "за 100 г сирої ваги",
+        "en": "per 100 g raw weight",
+        "pl": "za 100 g surowej wagi",
+        "de": "pro 100 g Rohgewicht",
+        "fr": "pour 100 g de poids cru"
+      }
+    ],
+    "fullDescription": {
+      "ua": "Французький стейк з крупно подрібненим перцем.",
+      "en": "French-style steak with coarse pepper.",
+      "pl": "Stek w stylu francuskim z grubo mielonym pieprzem.",
+      "de": "Französisches Steak mit grob gemahlenem Pfeffer.",
+      "fr": "Steak à la française avec poivre concassé."
+    }
+  }
+},
+{
+  "slug": "fire-ribs-classic",
+  "document": "item",
+  "data": {
+    "title": {
+      "ua": "Ребра на вогні",
+      "en": "Ribs on fire classic",
+      "pl": "Żeberka z ognia klasyczne",
+      "de": "Rippchen am Feuer klassisch",
+      "fr": "Côtes au feu classiques"
+    },
+    "description": {
+      "ua": "Свині реберця на вогні.",
+      "en": "Pork ribs on fire.",
+      "pl": "Wieprzowe żeberka z ognia.",
+      "de": "Schweinerippchen am Feuer.",
+      "fr": "Côtes de porc au feu."
+    },
+    "labels": [
+      {
+        "ua": "класичні (за 100 г сирої ваги)",
+        "en": "classic (per 100 g raw weight)",
+        "pl": "klasyczne (za 100 g surowej wagi)",
+        "de": "klassisch (pro 100 g Rohgewicht)",
+        "fr": "classiques (pour 100 g de poids cru)"
+      }
+    ],
+    "fullDescription": {
+      "ua": "Класичні свинячі ребра на вогні.",
+      "en": "Classic pork ribs on fire.",
+      "pl": "Klasyczne żeberka wieprzowe z ognia.",
+      "de": "Klassische Schweinerippchen am Feuer.",
+      "fr": "Côtes de porc classiques au feu."
+    }
+  }
+},
+{
+  "slug": "fire-ribs-honey-mustard",
+  "document": "item",
+  "data": {
+    "title": {
+      "ua": "Ребра на вогні",
+      "en": "Ribs on fire honey mustard",
+      "pl": "Żeberka z ognia miodowo-musztardowe",
+      "de": "Rippchen am Feuer Honig-Senf",
+      "fr": "Côtes au feu miel-moutarde"
+    },
+    "description": {
+      "ua": "Свині реберця на вогні.",
+      "en": "Pork ribs on fire.",
+      "pl": "Wieprzowe żeberka z ognia.",
+      "de": "Schweinerippchen am Feuer.",
+      "fr": "Côtes de porc au feu."
+    },
+    "labels": [
+      {
+        "ua": "медово-гірчичні (за 100 г сирої ваги)",
+        "en": "honey-mustard (per 100 g raw weight)",
+        "pl": "miodowo-musztardowe (za 100 g surowej wagi)",
+        "de": "Honig-Senf (pro 100 g Rohgewicht)",
+        "fr": "miel-moutarde (pour 100 g de poids cru)"
+      }
+    ],
+    "fullDescription": {
+      "ua": "Свинячі ребра в медово-гірчичному соусі на вогні.",
+      "en": "Honey mustard pork ribs on fire.",
+      "pl": "Wieprzowe żeberka w sosie miodowo-musztardowym.",
+      "de": "Schweinerippchen in Honig-Senf-Soße.",
+      "fr": "Côtes de porc en sauce miel-moutarde."
+    }
+  }
+},
+{
+  "slug": "fire-ribs-bbq",
+  "document": "item",
+  "data": {
+    "title": {
+      "ua": "Ребра на вогні",
+      "en": "Ribs on fire BBQ",
+      "pl": "Żeberka z ognia BBQ",
+      "de": "Rippchen am Feuer BBQ",
+      "fr": "Côtes au feu BBQ"
+    },
+    "description": {
+      "ua": "Свині реберця на вогні.",
+      "en": "Pork ribs on fire.",
+      "pl": "Wieprzowe żeberka z ognia.",
+      "de": "Schweinerippchen am Feuer.",
+      "fr": "Côtes de porc au feu."
+    },
+    "labels": [
+      {
+        "ua": "BBQ (за 100 г сирої ваги)",
+        "en": "BBQ (per 100 g raw weight)",
+        "pl": "BBQ (za 100 g surowej wagi)",
+        "de": "BBQ (pro 100 g Rohgewicht)",
+        "fr": "BBQ (pour 100 g de poids cru)"
+      }
+    ],
+    "fullDescription": {
+      "ua": "Свинячі ребра BBQ на вогні.",
+      "en": "BBQ pork ribs on fire.",
+      "pl": "Wieprzowe żeberka BBQ z ognia.",
+      "de": "BBQ-Schweinerippchen am Feuer.",
+      "fr": "Côtes de porc BBQ au feu."
+    }
+  }
+},
+{
+  "slug": "pork-neck-steak",
+  "document": "item",
+  "data": {
+    "title": {
+      "ua": "Стейк зі свиного ошийка",
+      "en": "Pork neck steak",
+      "pl": "Stek z karkówki",
+      "de": "Steak aus Schweinenacken",
+      "fr": "Steak de cou de porc"
+    },
+    "description": {
+      "ua": "Подається із соусом.",
+      "en": "Served with sauce.",
+      "pl": "Podawany z sosem.",
+      "de": "Mit Sauce serviert.",
+      "fr": "Servi avec sauce."
+    },
+    "labels": [
+      {
+        "ua": "за 100 г сирої ваги",
+        "en": "per 100 g raw weight",
+        "pl": "za 100 g surowej wagi",
+        "de": "pro 100 g Rohgewicht",
+        "fr": "pour 100 g de poids cru"
+      }
+    ],
+    "fullDescription": {
+      "ua": "Стейк зі свиного ошийка, подається із соусом.",
+      "en": "Pork neck steak served with sauce.",
+      "pl": "Stek z karkówki podawany z sosem.",
+      "de": "Schweinenackensteak mit Sauce.",
+      "fr": "Steak de cou de porc servi avec sauce."
+    }
+  }
+},
+{
+  "slug": "grilled-sausages",
+  "document": "item",
+  "data": {
+    "title": {
+      "ua": "Ковбаски на грилі",
+      "en": "Grilled sausages",
+      "pl": "Kiełbaski z grilla",
+      "de": "Gegrillte Würstchen",
+      "fr": "Saucisses grillées"
+    },
+    "description": {
+      "ua": "Подаються із гірчицею",
+      "en": "Served with mustard.",
+      "pl": "Podawane z musztardą.",
+      "de": "Mit Senf serviert.",
+      "fr": "Servies avec moutarde."
+    },
+    "labels": [
+      {
+        "ua": "300 г",
+        "en": "300 g",
+        "pl": "300 g",
+        "de": "300 g",
+        "fr": "300 g"
+      }
+    ],
+    "fullDescription": {
+      "ua": "Ковбаски на грилі, подаються із гірчицею.",
+      "en": "Grilled sausages served with mustard.",
+      "pl": "Kiełbaski z grilla podawane z musztardą.",
+      "de": "Gegrillte Würstchen mit Senf.",
+      "fr": "Saucisses grillées servies avec moutarde."
+    }
+  }
+},
+{
+  "slug": "pork-shashlik",
+  "document": "item",
+  "data": {
+    "title": {
+      "ua": "Шашлик зі свинини",
+      "en": "Pork shashlik",
+      "pl": "Szaszłyk wieprzowy",
+      "de": "Schweineschaschlik",
+      "fr": "Chachlik de porc"
+    },
+    "description": {
+      "ua": "Ніжна шия цукрової беконної свинини в маринаді від шефа. Подається з соусом і цибулею.",
+      "en": "Tender pork neck in chef's marinade. Served with sauce and onion.",
+      "pl": "Delikatna karkówka w marynacie szefa kuchni. Podawana z sosem i cebulą.",
+      "de": "Zarter Schweinenacken in Chefmarinade. Mit Sauce und Zwiebeln serviert.",
+      "fr": "Cou de porc tendre dans une marinade du chef. Servi avec sauce et oignon."
+    },
+    "labels": [
+      {
+        "ua": "за 100 г сирої ваги",
+        "en": "per 100 g raw weight",
+        "pl": "za 100 g surowej wagi",
+        "de": "pro 100 g Rohgewicht",
+        "fr": "pour 100 g de poids cru"
+      }
+    ],
+    "fullDescription": {
+      "ua": "Шашлик зі свинини в маринаді від шефа, подається з соусом і цибулею.",
+      "en": "Pork shashlik in chef's marinade served with sauce and onion.",
+      "pl": "Szaszłyk wieprzowy w marynacie szefa z sosem i cebulą.",
+      "de": "Schweineschaschlik in Chefmarinade mit Sauce und Zwiebeln.",
+      "fr": "Chachlik de porc dans une marinade du chef avec sauce et oignon."
+    }
+  }
+},
+{
+  "slug": "fried-pork",
+  "document": "item",
+  "data": {
+    "title": {
+      "ua": "Смаженина зі свинини",
+      "en": "Fried pork",
+      "pl": "Smażona wieprzowina",
+      "de": "Gebratenes Schweinefleisch",
+      "fr": "Porc rôti"
+    },
+    "description": {
+      "ua": "Ніжна свинина, картопля з цибулею в соусі, зелень.",
+      "en": "Tender pork, potatoes with onion in sauce, greens.",
+      "pl": "Delikatna wieprzowina, ziemniaki z cebulą w sosie, zielenina.",
+      "de": "Zartes Schweinefleisch, Kartoffeln mit Zwiebeln in Sauce, Kräuter.",
+      "fr": "Porc tendre, pommes de terre avec oignon en sauce, herbes."
+    },
+    "labels": [
+      {
+        "ua": "350 г",
+        "en": "350 g",
+        "pl": "350 g",
+        "de": "350 g",
+        "fr": "350 g"
+      }
+    ],
+    "fullDescription": {
+      "ua": "Смаженина зі свинини з картоплею, цибулею в соусі та зеленню.",
+      "en": "Fried pork with potatoes, onion in sauce and greens.",
+      "pl": "Smażona wieprzowina z ziemniakami, cebulą w sosie i zieleniną.",
+      "de": "Gebratenes Schweinefleisch mit Kartoffeln, Zwiebeln in Sauce und Kräutern.",
+      "fr": "Porc rôti avec pommes de terre, oignon en sauce et herbes."
+    }
+  }
+},
+{
+  "slug": "chicken-breast-josper",
+  "document": "item",
+  "data": {
+    "title": {
+      "ua": "Куряча грудка Josper",
+      "en": "Chicken breast Josper",
+      "pl": "Pierś z kurczaka Josper",
+      "de": "Hähnchenbrust Josper",
+      "fr": "Poitrine de poulet Josper"
+    },
+    "description": {
+      "ua": "Куряча грудка на грилі.",
+      "en": "Grilled chicken breast.",
+      "pl": "Grillowana pierś z kurczaka.",
+      "de": "Gegrillte Hähnchenbrust.",
+      "fr": "Poitrine de poulet grillée."
+    },
+    "labels": [
+      {
+        "ua": "за 100 г (продається на вагу)",
+        "en": "per 100 g (sold by weight)",
+        "pl": "za 100 g (sprzedawane na wagę)",
+        "de": "pro 100 g (nach Gewicht verkauft)",
+        "fr": "pour 100 g (vendu au poids)"
+      }
+    ],
+    "fullDescription": {
+      "ua": "Соковита куряча грудка, приготована в печі Josper.",
+      "en": "Juicy chicken breast cooked in Josper oven.",
+      "pl": "Soczysta pierś z kurczaka przygotowana w piecu Josper.",
+      "de": "Saftige Hähnchenbrust aus dem Josper-Ofen.",
+      "fr": "Poitrine de poulet juteuse cuite au four Josper."
+    }
+  }
+},
+{
+  "slug": "chicken-wings-bbq",
+  "document": "item",
+  "data": {
+    "title": {
+      "ua": "Курячі крильця",
+      "en": "Chicken wings BBQ",
+      "pl": "Skrzydełka BBQ",
+      "de": "Hähnchenflügel BBQ",
+      "fr": "Ailes de poulet BBQ"
+    },
+    "description": {
+      "ua": "Курячі крильця.",
+      "en": "Chicken wings.",
+      "pl": "Skrzydełka z kurczaka.",
+      "de": "Hähnchenflügel.",
+      "fr": "Ailes de poulet."
+    },
+    "labels": [
+      {
+        "ua": "BBQ (за 100 г сирої ваги)",
+        "en": "BBQ (per 100 g raw weight)",
+        "pl": "BBQ (za 100 g surowej wagi)",
+        "de": "BBQ (pro 100 g Rohgewicht)",
+        "fr": "BBQ (pour 100 g de poids cru)"
+      }
+    ],
+    "fullDescription": {
+      "ua": "Курячі крильця з соусом BBQ.",
+      "en": "Chicken wings with BBQ sauce.",
+      "pl": "Skrzydełka z sosem BBQ.",
+      "de": "Hähnchenflügel mit BBQ-Sauce.",
+      "fr": "Ailes de poulet avec sauce BBQ."
+    }
+  }
+},
+{
+  "slug": "chicken-wings-sweet-chili",
+  "document": "item",
+  "data": {
+    "title": {
+      "ua": "Курячі крильця",
+      "en": "Chicken wings sweet chili",
+      "pl": "Skrzydełka sweet chili",
+      "de": "Hähnchenflügel Sweet Chili",
+      "fr": "Ailes de poulet sweet chili"
+    },
+    "description": {
+      "ua": "Курячі крильця.",
+      "en": "Chicken wings.",
+      "pl": "Skrzydełka z kurczaka.",
+      "de": "Hähnchenflügel.",
+      "fr": "Ailes de poulet."
+    },
+    "labels": [
+      {
+        "ua": "sweet chili (за 100 г сирої ваги)",
+        "en": "sweet chili (per 100 g raw weight)",
+        "pl": "sweet chili (za 100 g surowej wagi)",
+        "de": "Sweet Chili (pro 100 g Rohgewicht)",
+        "fr": "sweet chili (pour 100 g de poids cru)"
+      }
+    ],
+    "fullDescription": {
+      "ua": "Курячі крильця з соусом sweet chili.",
+      "en": "Chicken wings with sweet chili sauce.",
+      "pl": "Skrzydełka z sosem sweet chili.",
+      "de": "Hähnchenflügel mit Sweet-Chili-Sauce.",
+      "fr": "Ailes de poulet avec sauce sweet chili."
+    }
+  }
+},
+{
+  "slug": "chicken-wings-honey-mustard",
+  "document": "item",
+  "data": {
+    "title": {
+      "ua": "Курячі крильця",
+      "en": "Chicken wings honey mustard",
+      "pl": "Skrzydełka miodowo-musztardowe",
+      "de": "Hähnchenflügel Honig-Senf",
+      "fr": "Ailes de poulet miel-moutarde"
+    },
+    "description": {
+      "ua": "Курячі крильця.",
+      "en": "Chicken wings.",
+      "pl": "Skrzydełka z kurczaka.",
+      "de": "Hähnchenflügel.",
+      "fr": "Ailes de poulet."
+    },
+    "labels": [
+      {
+        "ua": "медово-гірчичні (за 100 г сирої ваги)",
+        "en": "honey mustard (per 100 g raw weight)",
+        "pl": "miodowo-musztardowe (za 100 g surowej wagi)",
+        "de": "Honig-Senf (pro 100 g Rohgewicht)",
+        "fr": "miel-moutarde (pour 100 g de poids cru)"
+      }
+    ],
+    "fullDescription": {
+      "ua": "Курячі крильця з медово-гірчичним соусом.",
+      "en": "Chicken wings with honey mustard sauce.",
+      "pl": "Skrzydełka z sosem miodowo-musztardowym.",
+      "de": "Hähnchenflügel mit Honig-Senf-Sauce.",
+      "fr": "Ailes de poulet avec sauce miel-moutarde."
+    }
+  }
+},
+{
+  "slug": "cheese-plate",
+  "document": "item",
+  "data": {
+    "title": {
+      "ua": "Сирна тарілка",
+      "en": "Cheese plate",
+      "pl": "Talerz serów",
+      "de": "Käseplatte",
+      "fr": "Plateau de fromages"
+    },
+    "description": {
+      "ua": "Сири королівський, камамбер та дор-блю, мед, горіхи кешью",
+      "en": "Royal cheeses, camembert and dor blu, honey, cashew nuts.",
+      "pl": "Sery królewskie, camembert i dor blu, miód, orzechy nerkowca.",
+      "de": "Königliche Käse, Camembert und Dor Blu, Honig, Cashewnüsse.",
+      "fr": "Fromages royaux, camembert et dor blu, miel, noix de cajou."
+    },
+    "labels": [{ "ua": "190 г", "en": "190 g", "pl": "190 g", "de": "190 g", "fr": "190 g" }],
+    "fullDescription": {
+      "ua": "Сирна тарілка з камамбером, дор-блю, медом та кеш'ю.",
+      "en": "Cheese plate with camembert, dor blu, honey and cashew nuts.",
+      "pl": "Talerz serów z camembertem, dor blu, miodem i nerkowcami.",
+      "de": "Käseplatte mit Camembert, Dor Blu, Honig und Cashewnüssen.",
+      "fr": "Plateau de fromages avec camembert, dor blu, miel et noix de cajou."
+    }
+  }
+},
+{
+  "slug": "baked-potatoes",
+  "document": "item",
+  "data": {
+    "title": { "ua": "Запечена картопля", "en": "Baked potatoes", "pl": "Pieczone ziemniaki", "de": "Ofenkartoffeln", "fr": "Pommes de terre au four" },
+    "description": {
+      "ua": "Запікається у Josper, подається з сметано-часночним соусом.",
+      "en": "Cooked in Josper, served with sour garlic sauce.",
+      "pl": "Pieczone w Josperze, podawane z sosem czosnkowym.",
+      "de": "Im Josper zubereitet, mit Knoblauchsauce serviert.",
+      "fr": "Cuites au Josper, servies avec sauce à l'ail."
+    },
+    "labels": [{ "ua": "200 г", "en": "200 g", "pl": "200 g", "de": "200 g", "fr": "200 g" }],
+    "fullDescription": {
+      "ua": "Запечена картопля з часниковим соусом.",
+      "en": "Baked potatoes with garlic sauce.",
+      "pl": "Pieczone ziemniaki z sosem czosnkowym.",
+      "de": "Ofenkartoffeln mit Knoblauchsauce.",
+      "fr": "Pommes de terre au four avec sauce à l'ail."
+    }
+  }
+},
+{
+  "slug": "grilled-vegetables",
+  "document": "item",
+  "data": {
+    "title": {
+      "ua": "Овочі гриль",
+      "en": "Grilled vegetables",
+      "pl": "Warzywa z grilla",
+      "de": "Gegrilltes Gemüse",
+      "fr": "Légumes grillés"
+    },
+    "description": {
+      "ua": "Овочі приготовані на грилі.",
+      "en": "Grilled vegetables mix.",
+      "pl": "Mieszanka warzyw z grilla.",
+      "de": "Mischung aus gegrilltem Gemüse.",
+      "fr": "Mélange de légumes grillés."
+    },
+    "labels": [
+      {
+        "ua": "260 г",
+        "en": "260 g",
+        "pl": "260 g",
+        "de": "260 g",
+        "fr": "260 g"
+      }
+    ],
+    "fullDescription": {
+      "ua": "Овочі, приготовані на грилі.",
+      "en": "Fresh vegetables grilled to perfection.",
+      "pl": "Świeże warzywa grillowane do perfekcji.",
+      "de": "Frisches Gemüse perfekt gegrillt.",
+      "fr": "Légumes frais grillés à la perfection."
+    }
+  }
+},
+{
+  "slug": "fresh-vegetables",
+  "document": "item",
+  "data": {
+    "title": {
+      "ua": "Свіжі овочі",
+      "en": "Fresh vegetables",
+      "pl": "Świeże warzywa",
+      "de": "Frisches Gemüse",
+      "fr": "Légumes frais"
+    },
+    "description": {
+      "ua": "Свіжі овочі.",
+      "en": "Fresh vegetable mix.",
+      "pl": "Mieszanka świeżych warzyw.",
+      "de": "Mischung aus frischem Gemüse.",
+      "fr": "Mélange de légumes frais."
+    },
+    "labels": [
+      {
+        "ua": "260 г",
+        "en": "260 g",
+        "pl": "260 g",
+        "de": "260 g",
+        "fr": "260 g"
+      }
+    ],
+    "fullDescription": {
+      "ua": "Асорті зі свіжих овочів.",
+      "en": "Fresh vegetables assortment.",
+      "pl": "Asortyment świeżych warzyw.",
+      "de": "Auswahl an frischem Gemüse.",
+      "fr": "Assortiment de légumes frais."
+    }
+  }
+},
+{
+  "slug": "grilled-camembert",
+  "document": "item",
+  "data": {
+    "title": {
+      "ua": "Сир камамбер гриль",
+      "en": "Grilled camembert",
+      "pl": "Grillowany camembert",
+      "de": "Gegrillter Camembert",
+      "fr": "Camembert grillé"
+    },
+    "description": {
+      "ua": "Подається з грінками та соусом.",
+      "en": "Served with croutons and sauce.",
+      "pl": "Podawany z grzankami i sosem.",
+      "de": "Mit Croutons und Sauce serviert.",
+      "fr": "Servi avec croûtons et sauce."
+    },
+    "labels": [
+      {
+        "ua": "125 г",
+        "en": "125 g",
+        "pl": "125 g",
+        "de": "125 g",
+        "fr": "125 g"
+      }
+    ],
+    "fullDescription": {
+      "ua": "Камамбер гриль, подається з грінками та соусом.",
+      "en": "Grilled camembert with croutons and sauce.",
+      "pl": "Grillowany camembert z grzankami i sosem.",
+      "de": "Gegrillter Camembert mit Croutons und Sauce.",
+      "fr": "Camembert grillé avec croûtons et sauce."
+    }
+  }
+},
+{
+  "slug": "french-fries",
+  "document": "item",
+  "data": {
+    "title": {
+      "ua": "Картопля фрі",
+      "en": "French fries",
+      "pl": "Frytki",
+      "de": "Pommes frites",
+      "fr": "Frites"
+    },
+    "description": {
+      "ua": "Хрустка картопля фрі.",
+      "en": "Crispy fries.",
+      "pl": "Chrupiące frytki.",
+      "de": "Knusprige Pommes frites.",
+      "fr": "Frites croustillantes."
+    },
+    "labels": [
+      {
+        "ua": "200 г",
+        "en": "200 g",
+        "pl": "200 g",
+        "de": "200 g",
+        "fr": "200 g"
+      }
+    ],
+    "fullDescription": {
+      "ua": "Хрустка золотиста картопля фрі.",
+      "en": "Crispy golden french fries.",
+      "pl": "Chrupiące złote frytki.",
+      "de": "Knusprige goldene Pommes frites.",
+      "fr": "Frites dorées et croustillantes."
+    }
+  }
+},
+{
+  "slug": "grilled-mushrooms",
+  "document": "item",
+  "data": {
+    "title": {
+      "ua": "Печериці гриль",
+      "en": "Grilled mushrooms",
+      "pl": "Pieczarki z grilla",
+      "de": "Gegrillte Champignons",
+      "fr": "Champignons grillés"
+    },
+    "description": {
+      "ua": "Печериці приготовані на грилі.",
+      "en": "Grilled champignons.",
+      "pl": "Pieczarki przygotowane na grillu.",
+      "de": "Auf dem Grill zubereitete Champignons.",
+      "fr": "Champignons préparés au gril."
+    },
+    "labels": [
+      {
+        "ua": "260 г",
+        "en": "260 g",
+        "pl": "260 g",
+        "de": "260 g",
+        "fr": "260 g"
+      }
+    ],
+    "fullDescription": {
+      "ua": "Печериці, приготовані на грилі з зеленню.",
+      "en": "Grilled mushrooms with herbs.",
+      "pl": "Pieczarki z grilla z ziołami.",
+      "de": "Gegrillte Champignons mit Kräutern.",
+      "fr": "Champignons grillés aux herbes."
+    }
+  }
+},
+{
+  "slug": "chicken-burger",
+  "document": "item",
+  "data": {
+    "title": {
+      "ua": "Бургер Чікен",
+      "en": "Chicken burger",
+      "pl": "Burger Chicken",
+      "de": "Chicken Burger",
+      "fr": "Burger Chicken"
+    },
+    "description": {
+      "ua": "Подається з картоплею фрі та соусом",
+      "en": "Served with french fries and sauce.",
+      "pl": "Podawany z frytkami i sosem.",
+      "de": "Serviert mit Pommes frites und Sauce.",
+      "fr": "Servi avec frites et sauce."
+    },
+    "labels": [
+      {
+        "ua": "430 г",
+        "en": "430 g",
+        "pl": "430 g",
+        "de": "430 g",
+        "fr": "430 g"
+      }
+    ],
+    "fullDescription": {
+      "ua": "Бургер Чікен, подається з картоплею фрі та соусом.",
+      "en": "Chicken burger served with french fries and sauce.",
+      "pl": "Burger z kurczakiem podawany z frytkami i sosem.",
+      "de": "Chicken Burger mit Pommes frites und Sauce.",
+      "fr": "Burger au poulet servi avec frites et sauce."
+    }
+  }
+},
+{
+  "slug": "beef-burger",
+  "document": "item",
+  "data": {
+    "title": {
+      "ua": "Бургер із яловичиною",
+      "en": "Beef burger",
+      "pl": "Burger wołowy",
+      "de": "Rindfleischburger",
+      "fr": "Burger au bœuf"
+    },
+    "description": {
+      "ua": "Подається з картоплею фрі та соусом",
+      "en": "Served with french fries and sauce.",
+      "pl": "Podawany z frytkami i sosem.",
+      "de": "Serviert mit Pommes frites und Sauce.",
+      "fr": "Servi avec frites et sauce."
+    },
+    "labels": [
+      {
+        "ua": "460 г",
+        "en": "460 g",
+        "pl": "460 g",
+        "de": "460 g",
+        "fr": "460 g"
+      }
+    ],
+    "fullDescription": {
+      "ua": "Бургер із яловичиною, подається з картоплею фрі та соусом.",
+      "en": "Beef burger served with french fries and sauce.",
+      "pl": "Burger wołowy podawany z frytkami i sosem.",
+      "de": "Rindfleischburger mit Pommes frites und Sauce.",
+      "fr": "Burger au bœuf servi avec frites et sauce."
+    }
+  }
+},
+{
+  "slug": "beef-burger-dorblu",
+  "document": "item",
+  "data": {
+    "title": {
+      "ua": "Бургер з яловичиною та сиром дор-блю",
+      "en": "Beef burger with dor blu cheese",
+      "pl": "Burger wołowy z serem dor blu",
+      "de": "Rindfleischburger mit Dor-Blu-Käse",
+      "fr": "Burger au bœuf avec fromage dor blu"
+    },
+    "description": {
+      "ua": "Подається з картоплею фрі та соусом",
+      "en": "Served with french fries and sauce.",
+      "pl": "Podawany z frytkami i sosem.",
+      "de": "Serviert mit Pommes frites und Sauce.",
+      "fr": "Servi avec frites et sauce."
+    },
+    "labels": [
+      {
+        "ua": "490 г",
+        "en": "490 g",
+        "pl": "490 g",
+        "de": "490 g",
+        "fr": "490 g"
+      }
+    ],
+    "fullDescription": {
+      "ua": "Бургер з яловичиною та сиром дор-блю, подається з картоплею фрі та соусом.",
+      "en": "Beef burger with dor blu cheese, served with french fries and sauce.",
+      "pl": "Burger wołowy z serem dor blu, podawany z frytkami i sosem.",
+      "de": "Rindfleischburger mit Dor-Blu-Käse, serviert mit Pommes frites und Sauce.",
+      "fr": "Burger au bœuf avec fromage dor blu, servi avec frites et sauce."
+    }
+  }
+},
+{
+  "slug": "beef-burger-caramelized-onion",
+  "document": "item",
+  "data": {
+    "title": {
+      "ua": "Бургер з яловичиною та карамелізованою цибулею",
+      "en": "Beef burger with caramelized onion",
+      "pl": "Burger wołowy z karmelizowaną cebulą",
+      "de": "Rindfleischburger mit karamellisierter Zwiebel",
+      "fr": "Burger au bœuf avec oignon caramélisé"
+    },
+    "description": {
+      "ua": "Подається з картоплею фрі та соусом",
+      "en": "Served with french fries and sauce.",
+      "pl": "Podawany z frytkami i sosem.",
+      "de": "Serviert mit Pommes frites und Sauce.",
+      "fr": "Servi avec frites et sauce."
+    },
+    "labels": [
+      {
+        "ua": "490 г",
+        "en": "490 g",
+        "pl": "490 g",
+        "de": "490 g",
+        "fr": "490 g"
+      }
+    ],
+    "fullDescription": {
+      "ua": "Бургер з яловичиною та карамелізованою цибулею, подається з картоплею фрі та соусом.",
+      "en": "Beef burger with caramelized onion, served with french fries and sauce.",
+      "pl": "Burger wołowy z karmelizowaną cebulą, podawany z frytkami i sosem.",
+      "de": "Rindfleischburger mit karamellisierter Zwiebel, serviert mit Pommes frites und Sauce.",
+      "fr": "Burger au bœuf avec oignon caramélisé, servi avec frites et sauce."
+    }
+  }
+},
+{
+  "slug": "baby-burger-beef",
+  "document": "item",
+  "data": {
+    "title": {
+      "ua": "Бебі Бургер",
+      "en": "Baby burger beef",
+      "pl": "Baby burger z wołowiną",
+      "de": "Baby Burger mit Rindfleisch",
+      "fr": "Baby burger au bœuf"
+    },
+    "description": {
+      "ua": "Фрі + соус",
+      "en": "French fries and sauce.",
+      "pl": "Frytki + sos.",
+      "de": "Pommes + Sauce.",
+      "fr": "Frites + sauce."
+    },
+    "labels": [
+      {
+        "ua": "320 г (з яловичиною)",
+        "en": "320 g (with beef)",
+        "pl": "320 g (z wołowiną)",
+        "de": "320 g (mit Rindfleisch)",
+        "fr": "320 g (avec bœuf)"
+      }
+    ],
+    "fullDescription": {
+      "ua": "Бебі бургер з яловичиною, подається з фрі та соусом.",
+      "en": "Baby burger with beef, served with french fries and sauce.",
+      "pl": "Baby burger z wołowiną, podawany z frytkami i sosem.",
+      "de": "Baby Burger mit Rindfleisch, serviert mit Pommes und Sauce.",
+      "fr": "Baby burger au bœuf, servi avec frites et sauce."
+    }
+  }
+},
+{
+  "slug": "baby-burger-chicken",
+  "document": "item",
+  "data": {
+    "title": {
+      "ua": "Бебі Бургер",
+      "en": "Baby burger chicken",
+      "pl": "Baby burger z kurczakiem",
+      "de": "Baby Burger mit Hähnchen",
+      "fr": "Baby burger au poulet"
+    },
+    "description": {
+      "ua": "Фрі + соус",
+      "en": "French fries and sauce.",
+      "pl": "Frytki + sos.",
+      "de": "Pommes + Sauce.",
+      "fr": "Frites + sauce."
+    },
+    "labels": [
+      {
+        "ua": "320 г (з куркою)",
+        "en": "320 g (with chicken)",
+        "pl": "320 g (z kurczakiem)",
+        "de": "320 g (mit Hähnchen)",
+        "fr": "320 g (avec poulet)"
+      }
+    ],
+    "fullDescription": {
+      "ua": "Бебі бургер з куркою, подається з фрі та соусом.",
+      "en": "Baby burger with chicken, served with french fries and sauce.",
+      "pl": "Baby burger z kurczakiem, podawany z frytkami i sosem.",
+      "de": "Baby Burger mit Hähnchen, serviert mit Pommes und Sauce.",
+      "fr": "Baby burger au poulet, servi avec frites et sauce."
+    }
+  }
+},
+{
+  "slug": "pita-bread",
+  "document": "item",
+  "data": {
+    "title": {
+      "ua": "Піта",
+      "en": "Pita",
+      "pl": "Pita",
+      "de": "Pita",
+      "fr": "Pita"
+    },
+    "description": {
+      "ua": "Свіжа піта.",
+      "en": "Fresh pita bread.",
+      "pl": "Świeża pita.",
+      "de": "Frische Pita.",
+      "fr": "Pita fraîche."
+    },
+    "labels": [
+      {
+        "ua": "120 г",
+        "en": "120 g",
+        "pl": "120 g",
+        "de": "120 g",
+        "fr": "120 g"
+      }
+    ],
+    "fullDescription": {
+      "ua": "Свіжа піта.",
+      "en": "Fresh pita bread.",
+      "pl": "Świeża pita.",
+      "de": "Frische Pita.",
+      "fr": "Pita fraîche."
+    }
+  }
+},
+{
+  "slug": "pita-cheese",
+  "document": "item",
+  "data": {
+    "title": {
+      "ua": "Піта с сиром",
+      "en": "Pita with cheese",
+      "pl": "Pita z serem",
+      "de": "Pita mit Käse",
+      "fr": "Pita au fromage"
+    },
+    "description": {
+      "ua": "Піта з сиром.",
+      "en": "Pita with cheese.",
+      "pl": "Pita z serem.",
+      "de": "Pita mit Käse.",
+      "fr": "Pita au fromage."
+    },
+    "labels": [
+      {
+        "ua": "130 г",
+        "en": "130 g",
+        "pl": "130 g",
+        "de": "130 g",
+        "fr": "130 g"
+      }
+    ],
+    "fullDescription": {
+      "ua": "Піта з сиром.",
+      "en": "Pita bread with cheese.",
+      "pl": "Pita z serem.",
+      "de": "Pita mit Käse.",
+      "fr": "Pita au fromage."
+    }
+  }
+},
+{
+  "slug": "pita-garlic-herbs",
+  "document": "item",
+  "data": {
+    "title": {
+      "ua": "Піта з часником та прованськими травами",
+      "en": "Pita with garlic and provencal herbs",
+      "pl": "Pita z czosnkiem i ziołami prowansalskimi",
+      "de": "Pita mit Knoblauch und provenzalischen Kräutern",
+      "fr": "Pita à l'ail et aux herbes de Provence"
+    },
+    "description": {
+      "ua": "Піта з часником та прованськими травами.",
+      "en": "Pita with garlic and provencal herbs.",
+      "pl": "Pita z czosnkiem i ziołami prowansalskimi.",
+      "de": "Pita mit Knoblauch und provenzalischen Kräutern.",
+      "fr": "Pita à l'ail et aux herbes de Provence."
+    },
+    "labels": [
+      {
+        "ua": "120 г",
+        "en": "120 g",
+        "pl": "120 g",
+        "de": "120 g",
+        "fr": "120 g"
+      }
+    ],
+    "fullDescription": {
+      "ua": "Піта з часником та прованськими травами.",
+      "en": "Pita bread with garlic and provencal herbs.",
+      "pl": "Pita z czosnkiem i ziołami prowansalskimi.",
+      "de": "Pita mit Knoblauch und provenzalischen Kräutern.",
+      "fr": "Pita à l'ail et aux herbes de Provence."
+    }
+  }
+},
+{
+  "slug": "bbq-sauce",
+  "document": "item",
+  "data": {
+    "title": {
+      "ua": "BBQ",
+      "en": "BBQ sauce",
+      "pl": "Sos BBQ",
+      "de": "BBQ Soße",
+      "fr": "Sauce BBQ"
+    },
+    "description": {
+      "ua": "Негострий соус барбекю",
+      "en": "Mild barbecue sauce.",
+      "pl": "Łagodny sos barbecue.",
+      "de": "Milde Barbecue-Soße.",
+      "fr": "Sauce barbecue douce."
+    },
+    "labels": [
+      {
+        "ua": "50 г",
+        "en": "50 g",
+        "pl": "50 g",
+        "de": "50 g",
+        "fr": "50 g"
+      }
+    ],
+    "fullDescription": {
+      "ua": "Класичний соус барбекю.",
+      "en": "Classic barbecue sauce.",
+      "pl": "Klasyczny sos barbecue.",
+      "de": "Klassische Barbecue-Soße.",
+      "fr": "Sauce barbecue classique."
+    }
+  }
+},
+{
+  "slug": "kebab-sauce",
+  "document": "item",
+  "data": {
+    "title": {
+      "ua": "Шашличний",
+      "en": "Kebab sauce",
+      "pl": "Sos kebab",
+      "de": "Kebabsoße",
+      "fr": "Sauce kebab"
+    },
+    "description": {
+      "ua": "Класичний соус до шашлику",
+      "en": "Classic kebab sauce.",
+      "pl": "Klasyczny sos kebab.",
+      "de": "Klassische Kebabsoße.",
+      "fr": "Sauce kebab classique."
+    },
+    "labels": [
+      {
+        "ua": "50 г",
+        "en": "50 g",
+        "pl": "50 g",
+        "de": "50 g",
+        "fr": "50 g"
+      }
+    ],
+    "fullDescription": {
+      "ua": "Соус до м’ясних страв.",
+      "en": "Sauce for meat dishes.",
+      "pl": "Sos do dań mięsnych.",
+      "de": "Soße für Fleischgerichte.",
+      "fr": "Sauce pour plats de viande."
+    }
+  }
+},
+{
+  "slug": "spicy-sauce",
+  "document": "item",
+  "data": {
+    "title": {
+      "ua": "Гострий",
+      "en": "Spicy sauce",
+      "pl": "Ostry sos",
+      "de": "Scharfe Soße",
+      "fr": "Sauce épicée"
+    },
+    "description": {
+      "ua": "Гострий соус",
+      "en": "Hot sauce.",
+      "pl": "Ostry sos.",
+      "de": "Scharfe Soße.",
+      "fr": "Sauce épicée."
+    },
+    "labels": [
+      {
+        "ua": "50 г",
+        "en": "50 g",
+        "pl": "50 g",
+        "de": "50 g",
+        "fr": "50 g"
+      }
+    ],
+    "fullDescription": {
+      "ua": "Пікантний гострий соус.",
+      "en": "Hot spicy sauce.",
+      "pl": "Pikantny ostry sos.",
+      "de": "Würzige scharfe Soße.",
+      "fr": "Sauce épicée."
+    }
+  }
+},
+{
+  "slug": "sweet-chili",
+  "document": "item",
+  "data": {
+    "title": {
+      "ua": "Солодкий чілі",
+      "en": "Sweet chili",
+      "pl": "Słodkie chili",
+      "de": "Süßes Chili",
+      "fr": "Chili sucré"
+    },
+    "description": {
+      "ua": "Солодко-гострий соус",
+      "en": "Sweet chili sauce.",
+      "pl": "Sos słodko-pikantny.",
+      "de": "Süß-scharfe Soße.",
+      "fr": "Sauce chili sucrée."
+    },
+    "labels": [
+      {
+        "ua": "50 г",
+        "en": "50 g",
+        "pl": "50 g",
+        "de": "50 g",
+        "fr": "50 g"
+      }
+    ],
+    "fullDescription": {
+      "ua": "Солодко-гострий соус.",
+      "en": "Sweet chili sauce.",
+      "pl": "Sos słodko-pikantny.",
+      "de": "Süß-scharfe Soße.",
+      "fr": "Sauce chili sucrée."
+    }
+  }
+}
 ]

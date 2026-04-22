@@ -6,9 +6,69 @@
 		"slug": "breakfasts"
 	},
 	{
+		"name": "Salads",
+		"description": "Fresh salads and light dishes.",
+		"section": "food",
+		"slug": "salads"
+	},
+	{
 		"name": "Coffee",
 		"description": "Hot and cold coffee drinks.",
 		"section": "drinks",
 		"slug": "coffee"
+	},
+	{
+		"name": "Fish dishes",
+		"description": "Fish and seafood dishes.",
+		"section": "food",
+		"slug": "fish"
+	},
+	{
+		"name": "Beef",
+		"description": "Beef dishes.",
+		"section": "food",
+		"slug": "beef"
+	},
+	{
+		"name": "Pork",
+		"description": "Pork dishes.",
+		"section": "food",
+		"slug": "pork"
+	},
+	{
+		"name": "Chicken dishes",
+		"description": "Chicken dishes.",
+		"section": "food",
+		"slug": "chicken"
+	},
+	{
+		"name": "Snacks",
+		"description": "Light snacks and starters.",
+		"section": "food",
+		"slug": "snacks"
+	},
+	{
+		"name": "Burgers",
+		"description": "Burgers and hearty fast food dishes.",
+		"section": "food",
+		"slug": "burgers"
+	},
+	{
+		"name": "Bread",
+		"description": "Bread and baked goods.",
+		"section": "food",
+		"slug": "bread"
+	},
+	{
+		"name": "Cold drinks",
+		"description": "Refreshing cold beverages.",
+		"section": "drinks",
+		"slug": "cold-drinks"
+	},
+	{
+		"name": "Sauces",
+		"description": "Sauces and dish add-ons.",
+		"section": "food",
+		"slug": "sauces"
 	}
 ]
