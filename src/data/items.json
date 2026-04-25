@@ -1,19 +1,5 @@
 [
 	{
-		"slug": "cappuccino",
-		"categorySlug": "coffee",
-		"title": "Cappuccino",
-		"description": "Espresso with steamed milk and foam.",
-		"price": 50,
-		"labels": ["350ml"],
-		"fullDescription": "Espresso with steamed milk and foam. Ingredients: Espresso with steamed milk and foam..",
-		"suggested": ["homemade-syrnyky-with-sour-cream"],
-		"cookTimeMinutes": 5,
-		"caloriesKcal": 110,
-		"portion": "350ml",
-		"allergens": ["milk"]
-	},
-	{
 		"slug": "caesar-salad",
 		"categorySlug": "salads",
 		"title": "Caesar salad",
@@ -613,6 +599,48 @@
   "cookTimeMinutes": 2,
   "caloriesKcal": 90,
   "portion": "50 г",
+  "allergens": []
+},
+{
+  "slug": "coca-cola",
+  "categorySlug": "cold-drinks",
+  "title": "Coca Cola",
+  "description": "Освіжаючий газований напій.",
+  "price": 40,
+  "labels": ["500 мл"],
+  "fullDescription": "Класичний газований напій Coca Cola, подається охолодженим.",
+  "suggested": [],
+  "cookTimeMinutes": 1,
+  "caloriesKcal": 210,
+  "portion": "500 мл",
+  "allergens": []
+},
+{
+  "slug": "juice",
+  "categorySlug": "cold-drinks",
+  "title": "Сік в асортименті",
+  "description": "Натуральні соки різних смаків.",
+  "price": 55,
+  "labels": ["400 мл"],
+  "fullDescription": "Сік в асортименті: апельсиновий, яблучний, мультифрукт.",
+  "suggested": [],
+  "cookTimeMinutes": 1,
+  "caloriesKcal": 180,
+  "portion": "400 мл",
+  "allergens": []
+},
+{
+  "slug": "water",
+  "categorySlug": "cold-drinks",
+  "title": "Вода",
+  "description": "Газована або негазована питна вода.",
+  "price": 30,
+  "labels": ["0.5 л"],
+  "fullDescription": "Чиста питна вода, доступна в газованому та негазованому варіанті.",
+  "suggested": [],
+  "cookTimeMinutes": 1,
+  "caloriesKcal": 0,
+  "portion": "0.5 л",
   "allergens": []
 }
 ]

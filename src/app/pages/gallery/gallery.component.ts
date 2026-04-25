@@ -14,10 +14,16 @@ interface GalleryPhoto {
 })
 export class GalleryComponent {
 	protected readonly photos: GalleryPhoto[] = [
-		{ src: 'gallery/demo-1.webp', alt: 'Horeca bar service photo' },
-		{ src: 'gallery/demo-2.webp', alt: 'Horeca hotel reception photo' },
-		{ src: 'gallery/demo-3.webp', alt: 'Horeca hotel reception photo' },
-	];
+  { src: 'gallery/demo-1.webp', alt: 'Dish' },
+  { src: 'gallery/demo-2.webp', alt: 'Dish' },
+  { src: 'gallery/demo-3.webp', alt: 'Dish' },
+  { src: 'gallery/demo-4.webp', alt: 'Dish' },
+  { src: 'gallery/demo-5.webp', alt: 'Restaurant' },
+  { src: 'gallery/demo-6.webp', alt: 'Interior' },
+  { src: 'gallery/demo-7.webp', alt: 'Food' },
+  { src: 'gallery/demo-8.webp', alt: 'Serving' },
+  { src: 'gallery/demo-9.webp', alt: 'Grill' }
+];
 
 	protected readonly selectedPhoto = signal<GalleryPhoto | null>(null);
 

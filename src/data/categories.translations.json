@@ -1,25 +1,5 @@
 [
 	{
-		"slug": "breakfasts",
-		"document": "itemCategory",
-		"data": {
-			"name": {
-				"ua": "Сніданки",
-				"en": "Breakfasts",
-				"pl": "Śniadania",
-				"de": "Frühstücke",
-				"fr": "Petits-déjeuners"
-			},
-			"description": {
-				"ua": "Ранкові страви та легкі закуски.",
-				"en": "Morning meals and light starters.",
-				"pl": "Poranne posiłki i lekkie przystawki.",
-				"de": "Morgengerichte und leichte Vorspeisen.",
-				"fr": "Repas du matin et entrées légères."
-			}
-		}
-	},
-	{
 		"slug": "salads",
 		"document": "itemCategory",
 		"data": {
@@ -36,26 +16,6 @@
 				"pl": "Świeże sałatki i lekkie dania.",
 				"de": "Frische Salate und leichte Gerichte.",
 				"fr": "Salades fraîches et plats légers."
-			}
-		}
-	},
-	{
-		"slug": "coffee",
-		"document": "itemCategory",
-		"data": {
-			"name": {
-				"ua": "Кава",
-				"en": "Coffee",
-				"pl": "Kawa",
-				"de": "Kaffee",
-				"fr": "Café"
-			},
-			"description": {
-				"ua": "Гарячі та холодні кавові напої.",
-				"en": "Hot and cold coffee drinks.",
-				"pl": "Gorące i zimne napoje kawowe.",
-				"de": "Heiße und kalte Kaffeegetränke.",
-				"fr": "Boissons au café chaudes et froides."
 			}
 		}
 	},

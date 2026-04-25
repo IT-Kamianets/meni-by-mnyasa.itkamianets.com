@@ -1,21 +1,9 @@
 [
 	{
-		"name": "Breakfasts",
-		"description": "Morning meals and light starters.",
-		"section": "food",
-		"slug": "breakfasts"
-	},
-	{
 		"name": "Salads",
 		"description": "Fresh salads and light dishes.",
 		"section": "food",
 		"slug": "salads"
-	},
-	{
-		"name": "Coffee",
-		"description": "Hot and cold coffee drinks.",
-		"section": "drinks",
-		"slug": "coffee"
 	},
 	{
 		"name": "Fish dishes",
@@ -60,7 +48,7 @@
 		"slug": "bread"
 	},
 	{
-		"name": "Cold drinks",
+		"name": "cold-drinks",
 		"description": "Refreshing cold beverages.",
 		"section": "drinks",
 		"slug": "cold-drinks"
