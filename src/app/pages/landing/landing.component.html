@@ -23,12 +23,13 @@
 		<div class="border-b border-[var(--c-border)] bg-[var(--c-bg-primary)]/50 px-2 py-2">
 			<div class="no-scrollbar flex gap-2 overflow-x-auto">
 				@for (section of activeSections(); track trackBySection($index, section)) {
-					<a
-						class="shrink-0 rounded-[0.65rem] bg-[var(--c-bg-secondary)] px-3 py-1.5 text-[13px] font-semibold text-[var(--c-secondary)] shadow-[0_0_0_1px_var(--c-border)_inset]"
-						[href]="'#' + section.id"
-					>
-						{{ section.name }}
-					</a>
+					<button
+	class="shrink-0 rounded-[0.65rem] bg-[var(--c-bg-secondary)] px-3 py-1.5 text-[13px] font-semibold text-[var(--c-secondary)] shadow-[0_0_0_1px_var(--c-border)_inset]"
+	(click)="scrollToCategory(section.id)"
+	type="button"
+>
+	{{ section.name }}
+</button>
 				}
 			</div>
 		</div>

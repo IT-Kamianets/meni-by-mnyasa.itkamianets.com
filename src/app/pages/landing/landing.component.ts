@@ -23,13 +23,32 @@ export class LandingComponent {
 	protected readonly activeSections = computed(() => this.activeGroup()?.sections ?? []);
 
 	protected setGroup(groupId: string) {
-		if (this.selectedGroupId() === groupId) {
-			return;
-		}
-
-		this.selectedGroupId.set(groupId);
-		this._viewportScroller.scrollToPosition([0, 0]);
+	if (this.selectedGroupId() === groupId) {
+		this.scrollToCategory(groupId);
+		return;
 	}
+
+	this.selectedGroupId.set(groupId);
+
+	setTimeout(() => {
+		this.scrollToCategory(groupId);
+	}, 0);
+}
+
+protected scrollToCategory(groupId: string) {
+	const element = document.getElementById(groupId);
+
+	if (!element) {
+		return;
+	}
+
+	const y = element.getBoundingClientRect().top + window.scrollY - 90;
+
+	window.scrollTo({
+		top: y,
+		behavior: 'smooth',
+	});
+}
 
 	protected trackByGroup(_: number, group: MenuGroup) {
 		return group.id;

@@ -3,6 +3,7 @@ import { RouterLink } from '@angular/router';
 import { FavoritesService } from '../../feature/menu/favorites.service';
 import { MenuItem } from '../../feature/menu/menu.data';
 import { TranslatePipe, TranslateService } from '@wawjs/ngx-translate';
+import { signal } from '@angular/core';
 
 @Component({
 	selector: 'app-menu-item',
@@ -14,7 +15,7 @@ import { TranslatePipe, TranslateService } from '@wawjs/ngx-translate';
 export class MenuItemComponent {
 	private readonly _favoritesService = inject(FavoritesService);
 	private readonly _translateService = inject(TranslateService);
-
+	protected heartAnimating = signal(false);
 	readonly item = input.required<MenuItem>();
 	protected readonly isFavorite = computed(() =>
 		this._favoritesService.isFavorite(this.item().id),
@@ -29,6 +30,12 @@ export class MenuItemComponent {
 	);
 
 	protected toggleFavorite() {
-		this._favoritesService.toggleFavorite(this.item().id);
-	}
+	this._favoritesService.toggleFavorite(this.item().id);
+
+	this.heartAnimating.set(true);
+
+	setTimeout(() => {
+		this.heartAnimating.set(false);
+	}, 400);
+}
 }

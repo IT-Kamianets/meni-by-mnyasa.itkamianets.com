@@ -1,5 +1,5 @@
 <article
-	class="grid grid-cols-[minmax(0,1fr)_7.25rem] gap-3 px-3 py-3 sm:grid-cols-[minmax(0,1fr)_10rem]"
+	class="item-card fade-item grid grid-cols-[minmax(0,1fr)_7.25rem] gap-3 px-3 py-3 sm:grid-cols-[minmax(0,1fr)_10rem]"
 >
 	<div class="min-w-0">
 		<div class="flex items-start justify-between gap-3">
@@ -19,17 +19,21 @@
 			</div>
 
 			<button
-				class="inline-flex h-12 w-12 shrink-0 items-center justify-center rounded-full border border-0 bg-transparent text-[var(--c-text-muted)] transition-colors duration-200 hover:text-[var(--c-secondary)]"
+				class="ripple inline-flex h-12 w-12 shrink-0 items-center justify-center rounded-full border border-0 bg-transparent text-[var(--c-text-muted)] transition-colors duration-200 hover:text-[var(--c-secondary)]"
 				[attr.aria-label]="favoriteLabel()"
 				(click)="toggleFavorite()"
 				type="button"
 			>
 				<span
-					class="material-symbols-outlined"
-					[class.!text-[var(--c-secondary)]]="isFavorite()"
-					aria-hidden="true"
-				>
-					{{ isFavorite() ? 'favorite' : 'favorite_border' }}
+	class="material-symbols-outlined transition-all duration-200"
+	[class.!text-red-500]="isFavorite()"
+	[style.fontVariationSettings]="
+		isFavorite()
+			? `'FILL' 1, 'wght' 400, 'GRAD' 0, 'opsz' 24`
+			: `'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24`
+	"
+>
+	{{ isFavorite() ? 'favorite' : 'favorite' }}
 				</span>
 			</button>
 		</div>
