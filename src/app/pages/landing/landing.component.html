@@ -3,16 +3,16 @@
 		class="sticky top-0 z-20 overflow-hidden rounded-[1.2rem] border border-[var(--c-border)] bg-[var(--c-bg-secondary)] shadow-[var(--shadow-sm)]"
 	>
 		<div class="border-b border-[var(--c-border)] px-3 pt-2">
-			<div class="no-scrollbar flex gap-4 overflow-x-auto text-[15px] font-semibold">
+			<div class="no-scrollbar flex items-center gap-2 overflow-x-auto text-[14px] font-semibold py-1">
 				@for (group of groups(); track trackByGroup($index, group)) {
-					<button
-						class="shrink-0 border-b-2 px-0 pb-2 transition-colors duration-200"
-						[class.border-[var(--c-secondary)]]="selectedGroupId() === group.id"
-						[class.text-[var(--c-secondary)]]="selectedGroupId() === group.id"
-						[class.border-transparent]="selectedGroupId() !== group.id"
-						[class.text-[var(--c-text-muted)]]="selectedGroupId() !== group.id"
-						(click)="setGroup(group.id)"
-						type="button"
+						<button
+	class="shrink-0 rounded-full border px-3 py-1.5 text-[13px] font-semibold whitespace-nowrap transition-all duration-200"
+						[class.bg-[var(--c-primary)]]="selectedGroupId() === group.id"
+[class.text-[var(--c-bg-primary)]]="selectedGroupId() === group.id"
+[class.border-transparent]="selectedGroupId() === group.id"
+[class.bg-[var(--c-bg-secondary)]]="selectedGroupId() !== group.id"
+[class.text-[var(--c-text-secondary)]]="selectedGroupId() !== group.id"
+[class.border-[var(--c-border)]]="selectedGroupId() !== group.id"
 					>
 						{{ group.name }}
 					</button>

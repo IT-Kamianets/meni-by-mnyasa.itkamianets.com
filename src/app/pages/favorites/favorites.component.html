@@ -7,15 +7,15 @@
 				<div class="no-scrollbar flex gap-4 overflow-x-auto text-[15px] font-semibold">
 					@for (group of groups(); track trackByGroup($index, group)) {
 						<button
-							class="shrink-0 border-b-2 px-0 pb-2 transition-colors duration-200"
-							[class.border-[var(--c-secondary)]]="selectedGroupId() === group.id"
-							[class.text-[var(--c-secondary)]]="selectedGroupId() === group.id"
-							[class.border-transparent]="selectedGroupId() !== group.id"
-							[class.text-[var(--c-text-muted)]]="selectedGroupId() !== group.id"
-							(click)="setGroup(group.id)"
-							type="button"
-						>
-							{{ group.name }}
+							class="shrink-0 px-4 py-2 rounded-full text-[14px] font-semibold transition-all duration-200 border"
+	[class.bg-[var(--c-secondary)]]="selectedGroupId() === group.id"
+[class.text-white]="selectedGroupId() === group.id"
+[class.border-transparent]="selectedGroupId() === group.id"
+[class.bg-[var(--c-bg-primary)]]="selectedGroupId() !== group.id"
+[class.text-[var(--c-text-secondary)]]="selectedGroupId() !== group.id"
+[class.border-[var(--c-border)]]="selectedGroupId() !== group.id"
+>
+	{{ group.name }}
 						</button>
 					}
 				</div>
