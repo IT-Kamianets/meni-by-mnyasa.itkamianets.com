@@ -7,15 +7,16 @@
 				@for (group of groups(); track trackByGroup($index, group)) {
 						<button
 	class="shrink-0 rounded-full border px-3 py-1.5 text-[13px] font-semibold whitespace-nowrap transition-all duration-200"
-						[class.bg-[var(--c-primary)]]="selectedGroupId() === group.id"
-[class.text-[var(--c-bg-primary)]]="selectedGroupId() === group.id"
-[class.border-transparent]="selectedGroupId() === group.id"
-[class.bg-[var(--c-bg-secondary)]]="selectedGroupId() !== group.id"
-[class.text-[var(--c-text-secondary)]]="selectedGroupId() !== group.id"
-[class.border-[var(--c-border)]]="selectedGroupId() !== group.id"
-					>
-						{{ group.name }}
-					</button>
+	[class.bg-[var(--c-primary)]]="selectedGroupId() === group.id"
+	[class.text-[var(--c-bg-primary)]]="selectedGroupId() === group.id"
+	[class.bg-[var(--c-bg-secondary)]]="selectedGroupId() !== group.id"
+	[class.text-[var(--c-text-secondary)]]="selectedGroupId() !== group.id"
+	[class.border-[var(--c-border)]]="selectedGroupId() !== group.id"
+	(click)="setGroup(group.id)"
+	type="button"
+>
+	{{ group.name }}
+</button>
 				}
 			</div>
 		</div>
@@ -24,7 +25,7 @@
 			<div class="no-scrollbar flex gap-2 overflow-x-auto">
 				@for (section of activeSections(); track trackBySection($index, section)) {
 					<button
-	class="shrink-0 rounded-[0.65rem] bg-[var(--c-bg-secondary)] px-3 py-1.5 text-[13px] font-semibold text-[var(--c-secondary)] shadow-[0_0_0_1px_var(--c-border)_inset]"
+	class="shrink-0 rounded-[0.65rem] border border-[var(--c-border)] bg-[var(--c-bg-primary)] px-3 py-1.5 text-[13px] font-semibold text-[var(--c-text-secondary)] shadow-[0_0_0_1px_var(--c-border)_inset]"
 	(click)="scrollToCategory(section.id)"
 	type="button"
 >

@@ -215,6 +215,78 @@
 			}
 		}
 	},
+  {
+  "slug": "greek-salad",
+  "document": "item",
+  "data": {
+    "title": {
+      "ua": "Грецький салат",
+      "en": "Greek salad",
+      "pl": "Sałatka grecka",
+      "de": "Griechischer Salat",
+      "fr": "Salade grecque"
+    },
+    "description": {
+      "ua": "Класичний салат з огірком, помідорами, оливками та сиром фета.",
+      "en": "Classic salad with cucumber, tomato, olives and feta cheese.",
+      "pl": "Klasyczna sałatka z ogórkiem, pomidorem, oliwkami i serem feta.",
+      "de": "Klassischer Salat mit Gurke, Tomaten, Oliven und Feta.",
+      "fr": "Salade classique avec concombre, tomate, olives et fromage feta."
+    },
+    "labels": [
+      {
+        "ua": "260 г",
+        "en": "260 g",
+        "pl": "260 g",
+        "de": "260 g",
+        "fr": "260 g"
+      }
+    ],
+    "fullDescription": {
+      "ua": "Класичний грецький салат з огірком, помідорами, оливками та сиром фета.",
+      "en": "Classic Greek salad with cucumber, tomato, olives and feta cheese.",
+      "pl": "Klasyczna sałatka grecka z ogórkiem, pomidorem, oliwkami i serem feta.",
+      "de": "Klassischer griechischer Salat mit Gurke, Tomaten, Oliven und Feta.",
+      "fr": "Salade grecque classique avec concombre, tomate, olives et fromage feta."
+    }
+  }
+},
+{
+  "slug": "sea-salad",
+  "document": "item",
+  "data": {
+    "title": {
+      "ua": "Морський салат",
+      "en": "Seafood salad",
+      "pl": "Sałatka morska",
+      "de": "Meeresfrüchtesalat",
+      "fr": "Salade de fruits de mer"
+    },
+    "description": {
+      "ua": "Легкий салат з креветками та мідіями у ніжному вершковому соусі.",
+      "en": "Light salad with shrimp and mussels in creamy sauce.",
+      "pl": "Lekka sałatka z krewetkami i małżami w kremowym sosie.",
+      "de": "Leichter Salat mit Garnelen und Muscheln in cremiger Sauce.",
+      "fr": "Salade légère aux crevettes et moules avec sauce crémeuse."
+    },
+    "labels": [
+      {
+        "ua": "310 г",
+        "en": "310 g",
+        "pl": "310 g",
+        "de": "310 g",
+        "fr": "310 g"
+      }
+    ],
+    "fullDescription": {
+      "ua": "Легкий салат з креветками та мідіями у вершковому соусі.",
+      "en": "Light salad with shrimp and mussels in creamy sauce.",
+      "pl": "Lekka sałatka z krewetkami i małżami w kremowym sosie.",
+      "de": "Leichter Salat mit Garnelen und Muscheln in cremiger Sauce.",
+      "fr": "Salade aux crevettes et moules avec sauce crémeuse."
+    }
+  }
+},
 	{
 		"slug": "salmon-spinach",
 		"document": "item",
@@ -464,6 +536,222 @@
       "pl": "Stek w stylu francuskim z grubo mielonym pieprzem.",
       "de": "Französisches Steak mit grob gemahlenem Pfeffer.",
       "fr": "Steak à la française avec poivre concassé."
+    }
+  }
+},
+{
+  "slug": "fried-beef",
+  "document": "item",
+  "data": {
+    "title": {
+      "ua": "Смаженина з яловичини",
+      "en": "Fried beef",
+      "pl": "Smażona wołowina",
+      "de": "Gebratenes Rindfleisch",
+      "fr": "Bœuf frit"
+    },
+    "description": {
+      "ua": "Яловичина, картопля з цибулею, цибуля, вершковий соус.",
+      "en": "Beef, potatoes with onion, onion, creamy sauce.",
+      "pl": "Wołowina, ziemniaki z cebulą, cebula, sos śmietanowy.",
+      "de": "Rindfleisch, Kartoffeln mit Zwiebeln, Zwiebeln, Sahnesauce.",
+      "fr": "Bœuf, pommes de terre avec oignon, oignon, sauce crémeuse."
+    },
+    "labels": [
+      {
+        "ua": "350 г",
+        "en": "350 g",
+        "pl": "350 g",
+        "de": "350 g",
+        "fr": "350 g"
+      }
+    ],
+    "fullDescription": {
+      "ua": "Соковита яловичина з картоплею та цибулею, подається з вершковим соусом.",
+      "en": "Juicy beef with potatoes and onion, served with creamy sauce.",
+      "pl": "Soczysta wołowina z ziemniakami i cebulą, podawana z sosem śmietanowym.",
+      "de": "Saftiges Rindfleisch mit Kartoffeln und Zwiebeln, serviert mit Sahnesauce.",
+      "fr": "Bœuf juteux avec pommes de terre et oignon, servi avec une sauce crémeuse."
+    }
+  }
+},
+{
+  "slug": "beef-shashlik",
+  "document": "item",
+  "data": {
+    "title": {
+      "ua": "Шашлик із філейної яловичини",
+      "en": "Beef shashlik",
+      "pl": "Szaszłyk z wołowiny",
+      "de": "Rindfleisch-Schaschlik",
+      "fr": "Brochette de bœuf"
+    },
+    "description": {
+      "ua": "Ніжна яловичина, маринована та приготована на вогні.",
+      "en": "Tender beef marinated and grilled over fire.",
+      "pl": "Delikatna wołowina marynowana i grillowana na ogniu.",
+      "de": "Zartes mariniertes Rindfleisch, über Feuer gegrillt.",
+      "fr": "Bœuf tendre mariné et grillé au feu."
+    },
+    "labels": [
+      {
+        "ua": "за 100 г сирої ваги",
+        "en": "per 100 g raw weight",
+        "pl": "za 100 g surowej wagi",
+        "de": "pro 100 g Rohgewicht",
+        "fr": "pour 100 g de poids cru"
+      }
+    ],
+    "fullDescription": {
+      "ua": "Соковитий шашлик з яловичини, приготований на відкритому вогні.",
+      "en": "Juicy beef shashlik cooked over open fire.",
+      "pl": "Soczysty szaszłyk wołowy przygotowany na otwartym ogniu.",
+      "de": "Saftiger Rindfleisch-Schaschlik, über offenem Feuer zubereitet.",
+      "fr": "Brochette de bœuf juteuse cuite au feu ouvert."
+    }
+  }
+},
+{
+  "slug": "filet-medallion",
+  "document": "item",
+  "data": {
+    "title": {
+      "ua": "Філе медальйон",
+      "en": "Filet medallion",
+      "pl": "Medalion z polędwicy",
+      "de": "Filetmedaillon",
+      "fr": "Médaillon de filet"
+    },
+    "description": {
+      "ua": "Ніжне філе молодої яловичини з м’якою текстурою та насиченим смаком.",
+      "en": "Tender young beef fillet with soft texture and rich taste.",
+      "pl": "Delikatny filet z młodej wołowiny o miękkiej strukturze i bogatym smaku.",
+      "de": "Zartes Rinderfilet mit weicher Textur und intensivem Geschmack.",
+      "fr": "Filet de bœuf tendre avec une texture douce et un goût riche."
+    },
+    "labels": [
+      {
+        "ua": "за 100 г сирої ваги",
+        "en": "per 100 g raw weight",
+        "pl": "za 100 g surowej wagi",
+        "de": "pro 100 g Rohgewicht",
+        "fr": "pour 100 g de poids cru"
+      }
+    ],
+    "fullDescription": {
+      "ua": "Один з найніжніших відрізів яловичини з м’якою текстурою та вишуканим смаком.",
+      "en": "One of the most tender beef cuts with delicate texture and refined flavor.",
+      "pl": "Jeden z najdelikatniejszych kawałków wołowiny o wyrafinowanym smaku.",
+      "de": "Eines der zartesten Rindfleischstücke mit feinem Geschmack.",
+      "fr": "L'un des morceaux de bœuf les plus tendres avec une saveur raffinée."
+    }
+  }
+},
+{
+  "slug": "beef-bifshteks",
+  "document": "item",
+  "data": {
+    "title": {
+      "ua": "Біфштекс з яловичини",
+      "en": "Beef bifshteks",
+      "pl": "Befsztyk wołowy",
+      "de": "Rinderhacksteak",
+      "fr": "Steak haché de bœuf"
+    },
+    "description": {
+      "ua": "Подрібнене філе яловичини, подається з картоплею фрі, яйцем та соусом.",
+      "en": "Minced beef fillet served with fries, egg and sauce.",
+      "pl": "Mielona wołowina podawana z frytkami, jajkiem i sosem.",
+      "de": "Gehacktes Rindfleisch mit Pommes, Ei und Sauce.",
+      "fr": "Bœuf haché servi avec frites, œuf et sauce."
+    },
+    "labels": [
+      {
+        "ua": "380 г",
+        "en": "380 g",
+        "pl": "380 g",
+        "de": "380 g",
+        "fr": "380 g"
+      }
+    ],
+    "fullDescription": {
+      "ua": "Ніжний біфштекс з яловичини, подається з картоплею фрі, яйцем та соусом.",
+      "en": "Tender beef steak served with fries, egg and sauce.",
+      "pl": "Delikatny befsztyk wołowy z frytkami, jajkiem i sosem.",
+      "de": "Zartes Rindersteak mit Pommes, Ei und Sauce.",
+      "fr": "Steak de bœuf tendre avec frites, œuf et sauce."
+    }
+  }
+},
+{
+  "slug": "beef-bifshteks-cheese",
+  "document": "item",
+  "data": {
+    "title": {
+      "ua": "Біфштекс з сиром",
+      "en": "Beef bifshteks with cheese",
+      "pl": "Befsztyk z serem",
+      "de": "Rinderhacksteak mit Käse",
+      "fr": "Steak haché au fromage"
+    },
+    "description": {
+      "ua": "Ніжне м’ясо яловичини з сиром всередині, подається з картоплею фрі, яйцем і соусом.",
+      "en": "Tender beef with cheese inside, served with fries, egg and sauce.",
+      "pl": "Delikatna wołowina z serem w środku, podawana z frytkami, jajkiem i sosem.",
+      "de": "Zartes Rindfleisch mit Käsefüllung, serviert mit Pommes, Ei und Sauce.",
+      "fr": "Bœuf tendre avec fromage à l’intérieur, servi avec frites, œuf et sauce."
+    },
+    "labels": [
+      {
+        "ua": "400 г",
+        "en": "400 g",
+        "pl": "400 g",
+        "de": "400 g",
+        "fr": "400 g"
+      }
+    ],
+    "fullDescription": {
+      "ua": "Соковитий біфштекс з яловичини з сирною начинкою, подається з картоплею фрі, яйцем і соусом.",
+      "en": "Juicy beef steak with cheese filling, served with fries, egg and sauce.",
+      "pl": "Soczysty befsztyk z serem, podawany z frytkami, jajkiem i sosem.",
+      "de": "Saftiges Rindersteak mit Käsefüllung, serviert mit Pommes, Ei und Sauce.",
+      "fr": "Steak de bœuf juteux au fromage, servi avec frites, œuf et sauce."
+    }
+  }
+},
+{
+  "slug": "beef-medallions-dorblu",
+  "document": "item",
+  "data": {
+    "title": {
+      "ua": "Медальйони з дорблю зі вершковим соусом",
+      "en": "Beef medallions with dorblu sauce",
+      "pl": "Medaliony z sosem dorblu",
+      "de": "Rinder-Medaillons mit Dorblu-Sauce",
+      "fr": "Médaillons de bœuf avec sauce dorblu"
+    },
+    "description": {
+      "ua": "Ніжні медальйони з яловичини з вершковим соусом дорблю.",
+      "en": "Tender beef medallions with creamy dorblu sauce.",
+      "pl": "Delikatne medaliony wołowe z kremowym sosem dorblu.",
+      "de": "Zarte Rindermedaillons mit cremiger Dorblu-Sauce.",
+      "fr": "Médaillons de bœuf tendres avec sauce dorblu crémeuse."
+    },
+    "labels": [
+      {
+        "ua": "за 100 г сирої ваги",
+        "en": "per 100 g raw weight",
+        "pl": "za 100 g surowej wagi",
+        "de": "pro 100 g Rohgewicht",
+        "fr": "pour 100 g de poids cru"
+      }
+    ],
+    "fullDescription": {
+      "ua": "Соковиті медальйони з яловичини з ніжним вершковим соусом дорблю.",
+      "en": "Juicy beef medallions with creamy dorblu sauce.",
+      "pl": "Soczyste medaliony wołowe z kremowym sosem dorblu.",
+      "de": "Saftige Rindermedaillons mit cremiger Dorblu-Sauce.",
+      "fr": "Médaillons de bœuf juteux avec sauce dorblu crémeuse."
     }
   }
 },
@@ -1094,6 +1382,186 @@
   }
 },
 {
+  "slug": "pickles",
+  "document": "item",
+  "data": {
+    "title": {
+      "ua": "Соління",
+      "en": "Pickles",
+      "pl": "Kiszonki",
+      "de": "Eingelegtes Gemüse",
+      "fr": "Légumes marinés"
+    },
+    "description": {
+      "ua": "Асорті домашніх солінь.",
+      "en": "Assorted homemade pickles.",
+      "pl": "Zestaw domowych kiszonek.",
+      "de": "Auswahl hausgemachter eingelegter Gemüse.",
+      "fr": "Assortiment de légumes marinés maison."
+    },
+    "labels": [
+      {
+        "ua": "260 г",
+        "en": "260 g",
+        "pl": "260 g",
+        "de": "260 g",
+        "fr": "260 g"
+      }
+    ],
+    "fullDescription": {
+      "ua": "Асорті традиційних домашніх солінь.",
+      "en": "Selection of traditional homemade pickles.",
+      "pl": "Zestaw tradycyjnych domowych kiszonek.",
+      "de": "Auswahl traditioneller hausgemachter eingelegter Gemüse.",
+      "fr": "Sélection de légumes marinés traditionnels."
+    }
+  }
+},
+{
+  "slug": "country-style-potatoes",
+  "document": "item",
+  "data": {
+    "title": {
+      "ua": "Картопля по-селянськи",
+      "en": "Country style potatoes",
+      "pl": "Ziemniaki po wiejsku",
+      "de": "Kartoffeln nach Bauernart",
+      "fr": "Pommes de terre à la paysanne"
+    },
+    "description": {
+      "ua": "Картопля з часником та зеленню, подається з кетчупом.",
+      "en": "Potatoes with garlic and herbs, served with ketchup.",
+      "pl": "Ziemniaki z czosnkiem i ziołami, podawane z ketchupem.",
+      "de": "Kartoffeln mit Knoblauch und Kräutern, serviert mit Ketchup.",
+      "fr": "Pommes de terre à l'ail et aux herbes, servies avec ketchup."
+    },
+    "labels": [
+      {
+        "ua": "250 г",
+        "en": "250 g",
+        "pl": "250 g",
+        "de": "250 g",
+        "fr": "250 g"
+      }
+    ],
+    "fullDescription": {
+      "ua": "Хрустка картопля з часником та зеленню, подається з кетчупом.",
+      "en": "Crispy potatoes with garlic and herbs, served with ketchup.",
+      "pl": "Chrupiące ziemniaki z czosnkiem i ziołami, podawane z ketchupem.",
+      "de": "Knusprige Kartoffeln mit Knoblauch und Kräutern, serviert mit Ketchup.",
+      "fr": "Pommes de terre croustillantes à l'ail et aux herbes, servies avec ketchup."
+    }
+  }
+},
+{
+  "slug": "chicken-nuggets",
+  "document": "item",
+  "data": {
+    "title": {
+      "ua": "Нагетси",
+      "en": "Chicken nuggets",
+      "pl": "Nuggetsy z kurczaka",
+      "de": "Chicken Nuggets",
+      "fr": "Nuggets de poulet"
+    },
+    "description": {
+      "ua": "Хрусткі курячі нагетси.",
+      "en": "Crispy chicken nuggets.",
+      "pl": "Chrupiące nuggetsy z kurczaka.",
+      "de": "Knusprige Chicken Nuggets.",
+      "fr": "Nuggets de poulet croustillants."
+    },
+    "labels": [
+      {
+        "ua": "150 г",
+        "en": "150 g",
+        "pl": "150 g",
+        "de": "150 g",
+        "fr": "150 g"
+      }
+    ],
+    "fullDescription": {
+      "ua": "Хрусткі курячі нагетси в паніровці.",
+      "en": "Crispy breaded chicken nuggets.",
+      "pl": "Chrupiące nuggetsy z kurczaka w panierce.",
+      "de": "Knusprige panierte Chicken Nuggets.",
+      "fr": "Nuggets de poulet croustillants panés."
+    }
+  }
+},
+{
+  "slug": "onion-rings",
+  "document": "item",
+  "data": {
+    "title": {
+      "ua": "Цибулеві кільця",
+      "en": "Onion rings",
+      "pl": "Krążki cebulowe",
+      "de": "Zwiebelringe",
+      "fr": "Rondelles d’oignon"
+    },
+    "description": {
+      "ua": "Хрусткі смажені цибулеві кільця.",
+      "en": "Crispy fried onion rings.",
+      "pl": "Chrupiące smażone krążki cebulowe.",
+      "de": "Knusprig frittierte Zwiebelringe.",
+      "fr": "Rondelles d’oignon croustillantes."
+    },
+    "labels": [
+      {
+        "ua": "150 г",
+        "en": "150 g",
+        "pl": "150 g",
+        "de": "150 g",
+        "fr": "150 g"
+      }
+    ],
+    "fullDescription": {
+      "ua": "Золотисті хрусткі цибулеві кільця в паніровці.",
+      "en": "Golden crispy battered onion rings.",
+      "pl": "Złociste chrupiące krążki cebulowe w panierce.",
+      "de": "Goldene knusprige Zwiebelringe im Teig.",
+      "fr": "Rondelles d’oignon dorées et croustillantes."
+    }
+  }
+},
+{
+  "slug": "fryer-set",
+  "document": "item",
+  "data": {
+    "title": {
+      "ua": "Сет фритюр",
+      "en": "Fryer set",
+      "pl": "Zestaw frytura",
+      "de": "Frittier-Set",
+      "fr": "Assortiment frit"
+    },
+    "description": {
+      "ua": "Картопля фрі, нагетси, цибулеві кільця та соуси.",
+      "en": "French fries, nuggets, onion rings and sauces.",
+      "pl": "Frytki, nuggetsy, krążki cebulowe i sosy.",
+      "de": "Pommes, Nuggets, Zwiebelringe und Saucen.",
+      "fr": "Frites, nuggets, rondelles d’oignon et sauces."
+    },
+    "labels": [
+      {
+        "ua": "440 г",
+        "en": "440 g",
+        "pl": "440 g",
+        "de": "440 g",
+        "fr": "440 g"
+      }
+    ],
+    "fullDescription": {
+      "ua": "Великий набір фритюрних закусок: картопля фрі, нагетси, цибулеві кільця та соуси.",
+      "en": "Large set of fried snacks: fries, nuggets, onion rings and sauces.",
+      "pl": "Duży zestaw przekąsek: frytki, nuggetsy, krążki cebulowe i sosy.",
+      "de": "Großes Set frittierter Snacks: Pommes, Nuggets, Zwiebelringe und Saucen.",
+      "fr": "Grand assortiment de snacks frits: frites, nuggets, rondelles d’oignon et sauces."
+    }
+  }
+},
+{
   "slug": "chicken-burger",
   "document": "item",
   "data": {
@@ -1306,6 +1774,78 @@
       "pl": "Baby burger z kurczakiem, podawany z frytkami i sosem.",
       "de": "Baby Burger mit Hähnchen, serviert mit Pommes und Sauce.",
       "fr": "Baby burger au poulet, servi avec frites et sauce."
+    }
+  }
+},
+{
+  "slug": "burger-king-cheese",
+  "document": "item",
+  "data": {
+    "title": {
+      "ua": "Бургер King Cheese",
+      "en": "Burger King Cheese",
+      "pl": "Burger King Cheese",
+      "de": "Burger King Cheese",
+      "fr": "Burger King Cheese"
+    },
+    "description": {
+      "ua": "Більше ніж 0.5 кг смакоти! Бургер з яловичиною, сиром, картоплею фрі та соусом.",
+      "en": "More than 0.5 kg of вкус! Beef burger with cheese, fries and sauce.",
+      "pl": "Ponad 0.5 kg pyszności! Burger wołowy z serem, frytkami i sosem.",
+      "de": "Mehr als 0.5 kg Genuss! Rindfleischburger mit Käse, Pommes und Sauce.",
+      "fr": "Plus de 0,5 kg de délice ! Burger de bœuf avec fromage, frites et sauce."
+    },
+    "labels": [
+      {
+        "ua": "1 шт",
+        "en": "1 pc",
+        "pl": "1 szt",
+        "de": "1 Stk",
+        "fr": "1 pc"
+      }
+    ],
+    "fullDescription": {
+      "ua": "Великий бургер з яловичиною, сиром, подається з картоплею фрі та соусом.",
+      "en": "Large beef burger with cheese, served with fries and sauce.",
+      "pl": "Duży burger wołowy z serem, podawany z frytkami i sosem.",
+      "de": "Großer Rindfleischburger mit Käse, serviert mit Pommes und Sauce.",
+      "fr": "Grand burger de bœuf avec fromage, servi avec frites et sauce."
+    }
+  }
+},
+{
+  "slug": "double-burger",
+  "document": "item",
+  "data": {
+    "title": {
+      "ua": "Double Бургер",
+      "en": "Double burger",
+      "pl": "Podwójny burger",
+      "de": "Doppelter Burger",
+      "fr": "Double burger"
+    },
+    "description": {
+      "ua": "Дві котлети з яловичини, картопля фрі і соус.",
+      "en": "Two beef patties with fries and sauce.",
+      "pl": "Dwa kotlety wołowe z frytkami i sosem.",
+      "de": "Zwei Rindfleisch-Patties mit Pommes und Sauce.",
+      "fr": "Deux steaks de bœuf avec frites et sauce."
+    },
+    "labels": [
+      {
+        "ua": "600 г",
+        "en": "600 g",
+        "pl": "600 g",
+        "de": "600 g",
+        "fr": "600 g"
+      }
+    ],
+    "fullDescription": {
+      "ua": "Соковитий бургер з двома котлетами з яловичини, подається з картоплею фрі та соусом.",
+      "en": "Juicy double beef burger served with fries and sauce.",
+      "pl": "Soczysty podwójny burger wołowy podawany z frytkami i sosem.",
+      "de": "Saftiger Doppelburger mit Pommes und Sauce.",
+      "fr": "Burger double juteux servi avec frites et sauce."
     }
   }
 },
