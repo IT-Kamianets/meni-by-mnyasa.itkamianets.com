@@ -15,7 +15,7 @@
 
 		<div class="p-3 sm:p-4">
 			<div class="grid gap-3 sm:grid-cols-2">
-				@for (item of navItems; track item.route) {
+				@for (item of navItems; track item.route; let index = $index) {
 					<a
 						class="flex items-center justify-between gap-3 rounded-[1rem] border border-[var(--c-border)] bg-[var(--c-bg-primary)] px-4 py-4 transition-transform duration-200 hover:-translate-y-0.5"
 						[routerLink]="item.route"
@@ -24,7 +24,7 @@
 							<p
 								class="text-[12px] font-semibold uppercase tracking-[0.18em] text-[var(--c-secondary)]"
 							>
-								{{ item.badge }}
+								{{ index + 1 < 10 ? '0' + (index + 1) : index + 1 }}
 							</p>
 							<h2 class="mt-2 text-lg font-semibold text-[var(--c-text-secondary)]" translate>
 								{{ item.label }}

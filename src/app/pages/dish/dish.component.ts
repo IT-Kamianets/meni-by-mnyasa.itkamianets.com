@@ -123,23 +123,37 @@ function _buildFacts(
 			value:
 				item.cookTimeMinutes === null
 					? translateService.translate('Ask restaurant staff')()
-					: `${item.cookTimeMinutes} min`,
+					: _formatCookTime(item.cookTimeMinutes, translateService),
 		},
 		{
 			label: translateService.translate('Calories')(),
 			value:
 				item.caloriesKcal === null
 					? translateService.translate('Ask restaurant staff')()
-					: `${item.caloriesKcal} kcal`,
+					: _formatCalories(item.caloriesKcal, translateService),
 		},
 		{
 			label: translateService.translate('Allergens')(),
 			value:
 				item.allergens.length > 0
-					? item.allergens.join(', ')
+					? _formatAllergens(item.allergens, translateService)
 					: translateService.translate('No allergen information available')(),
 		},
 	];
+}
+
+function _formatCookTime(minutes: number, translateService: TranslateService) {
+	return `${minutes} ${translateService.translate('min')()}`;
+}
+
+function _formatCalories(calories: number, translateService: TranslateService) {
+	return `${calories} ${translateService.translate('kcal')()}`;
+}
+
+function _formatAllergens(allergens: string[], translateService: TranslateService) {
+	return allergens
+		.map((allergen) => translateService.translate(allergen)())
+		.join(', ');
 }
 
 function _buildSuggestions(

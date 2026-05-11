@@ -10,9 +10,9 @@ import { TranslateDirective } from '@wawjs/ngx-translate';
 })
 export class NavigationComponent {
 	protected readonly navItems = [
-		{ label: 'Articles', badge: '03', icon: 'article', route: '/articles' },
-		{ label: 'Reviews', badge: '04', icon: 'rate_review', route: '/reviews' },
-		{ label: 'Events', badge: '05', icon: 'event', route: '/events' },
-		{ label: 'Jobs', badge: '06', icon: 'work', route: '/jobs' },
+		{ label: 'Articles', icon: 'article', route: '/articles' },
+		{ label: 'Reviews', icon: 'rate_review', route: '/reviews' },
+		{ label: 'Events', icon: 'event', route: '/events' },
+		{ label: 'Jobs', icon: 'work', route: '/jobs' },
 	];
 }
