@@ -1,5 +1,6 @@
-import { ChangeDetectionStrategy, Component, inject } from '@angular/core';
+import { ChangeDetectionStrategy, Component, computed, inject } from '@angular/core';
 import { RouterLink, RouterLinkActive, RouterOutlet } from '@angular/router';
+import { TranslateService } from '@wawjs/ngx-translate';
 import { TopbarComponent } from './layouts/topbar/topbar.component';
 import { ScrollService } from './services/scroll.service';
 
@@ -18,7 +19,7 @@ import { ScrollService } from './services/scroll.service';
 			class="fixed inset-x-0 bottom-0 z-30 border-t border-[var(--c-border)] bg-[var(--c-bg-secondary)]/95 px-2 py-2 backdrop-blur supports-[backdrop-filter]:bg-[var(--c-bg-secondary)]/88"
 		>
 			<div class="mx-auto grid max-w-[var(--container)] grid-cols-5 gap-1">
-				@for (item of navItems; track item.label) {
+				@for (item of navItems(); track item.label) {
 					@if (item.route) {
 						<a
 							class="flex min-w-0 flex-col items-center justify-center gap-1 rounded-[0.9rem] px-1 py-2 text-[11px] font-medium text-[var(--c-text-muted)] transition-colors duration-200 hover:bg-[var(--c-bg-primary)]"
@@ -50,14 +51,15 @@ import { ScrollService } from './services/scroll.service';
 })
 export class App {
 	private readonly _scrollService = inject(ScrollService);
+	private readonly _translateService = inject(TranslateService);
 
-	protected readonly navItems = [
-		{ label: 'Nav', icon: 'navigation', route: '/navigation', exact: true },
-		{ label: 'Gallery', icon: 'photo_library', route: '/gallery', exact: true },
-		{ label: 'Socials', icon: 'share', route: '/socials', exact: true },
-		{ label: 'Favorite', icon: 'favorite', route: '/favorites', exact: true },
-		{ label: 'Menu', icon: 'restaurant_menu', route: '/', exact: true },
-	];
+	protected readonly navItems = computed(() => [
+		{ label: this._translateService.translate('Navigation')(), icon: 'navigation', route: '/navigation', exact: true },
+		{ label: this._translateService.translate('Gallery')(), icon: 'photo_library', route: '/gallery', exact: true },
+		{ label: this._translateService.translate('Socials')(), icon: 'share', route: '/socials', exact: true },
+		{ label: this._translateService.translate('Favorites')(), icon: 'favorite', route: '/favorites', exact: true },
+		{ label: this._translateService.translate('Menu')(), icon: 'restaurant_menu', route: '/', exact: true },
+	]);
 
 	constructor() {
 		this._scrollService.initialize();

@@ -186,7 +186,7 @@ function _formatPrice(price: number | null, translateService: TranslateService) 
 		return translateService.translate('Ask for price')();
 	}
 
-	return `${price} €`;
+	return `${price} ₴`;
 }
 
 function _resolveFallbackEntry() {

@@ -51,6 +51,7 @@
   "The gallery is currently empty": "Галерея зараз порожня",
   "Check back later to see photos from Horeca.": "Завітайте пізніше, щоб побачити фото з Horeca.",
   "Navigation": "Навігація",
+  "Menu": "Меню",
   "Quick links": "Швидкі посилання",
   "Open the main sections of the website from one place.": "Відкрийте основні розділи сайту з одного місця.",
   "Rooms": "Номери",
@@ -99,5 +100,17 @@
   "Check back later for updates.": "Завітайте пізніше для оновлень.",
   "No job openings at the moment": "Наразі немає відкритих вакансій.",
   "Stay tuned for updates": "Слідкуйте за оновленнями.",
-  "This page is currently empty": "Ця сторінка наразі порожня."
+  "This page is currently empty": "Ця сторінка наразі порожня.",
+  "Book a table": "Бронювати",
+  "Leave your name and phone number and we will call you back.": "Залиште ім'я та номер телефону — ми зателефонуємо вам.",
+  "Name": "Ім'я",
+  "Your name": "Ваше ім'я",
+  "Your phone number": "Ваш номер телефону",
+  "Booking request sent": "Заявку надіслано",
+  "We will contact you shortly.": "Ми зв'яжемося з вами найближчим часом.",
+  "Close": "Закрити",
+  "Cancel": "Скасувати",
+  "Send": "Надіслати",
+  "Sending...": "Надсилання...",
+  "Something went wrong. Please try again.": "Щось пішло не так. Спробуйте ще раз."
 }
